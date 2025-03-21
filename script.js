@@ -156,7 +156,7 @@ function createStructure(
 function ALayoutGenerator(titles, text, page) {
   return `
   <div class="Alayout-container">
-    <img id="caratula" src="images/caratula.jpeg">
+    <img id="caratula" src="images/caratula.png">
       <div class="button-caratula-container">
         <button class="nav-buttons" id="comenzar-button" onclick="nextPage()">Comienza</button>
       </div>
@@ -182,71 +182,75 @@ function CLayOutGenerator(titles, text, page) {
         <p class="index-text">Presentacion</p>
       </div>
       <div class="button-index-container">
-        <button class="jump-buttons" onclick="setPage(5)">Ir</button>
-        <p class="index-text">TEMA 1: BASE NORMATIVA</p> 
+        <button class="jump-buttons" onclick="setPage(4)">Ir</button> 
+        <p class="index-text">DATOS GENERALES DEL CUADERNO</p>
       </div>
       <div class="button-index-container">
-        <button class="jump-buttons" onclick="setPage(7)">Ir</button>
-        <p class="index-text">Normativa internacional</p>
+        <button class="jump-buttons" onclick="setPage(5)">Ir</button>
+        <p class="index-text">TEMA 1 DE LA JUSTICIA RESTAURATIVA A LAS PRÁCTICAS</p> 
       </div>
       <div class="button-index-container">
         <button class="jump-buttons" onclick="setPage(8)">Ir</button>
-        <p class="index-text">Normativa nacional</p>
+        <p class="index-text">Aspectos fundamentales de la Justicia Restaurativa en la unidad educativa</p>
       </div>
       <div class="button-index-container">
-        <button class="jump-buttons" onclick="setPage(10)">Ir</button>
-        <p class="index-text">Protocolo de prevención</p>
+        <button class="jump-buttons" onclick="setPage(13)">Ir</button>
+        <p class="index-text">Tipos de la violencia en el sistema educativo</p>
       </div>
       <div class="button-index-container">
-        <button class="jump-buttons" onclick="setPage(11)">Ir</button>
-        <p class="index-text">Estrategias para la Prevención de Conflictos</p>   
+        <button class="jump-buttons" onclick="setPage(17)">Ir</button>
+        <p class="index-text">Consecuencias emocionales por agresión</p>
       </div>
       <div class="button-index-container">
-        <button class="jump-buttons" onclick="setPage(12)">Ir</button>
-        <p class="index-text">TEMA 2: COMPREDER EL CONFLICTO EN EL ENTORNO EDUCATIVO</p>   
-      </div>
-      <div class="button-index-container">
-        <button class="jump-buttons" onclick="setPage(15)">Ir</button>
-        <p class="index-text">El conflicto y sus características</p>     
-      </div>
-      <div class="button-index-container">
-        <button class="jump-buttons" onclick="setPage(19)">Ir</button>
-        <p class="index-text">Conflictos entre estudiantes</p>       
+        <button class="jump-buttons" onclick="setPage(18)">Ir</button>
+        <p class="index-text">El aporte de la Justicia restaurativa a la práctica restaurativa escolar </p>   
       </div>
       <div class="button-index-container">
         <button class="jump-buttons" onclick="setPage(22)">Ir</button>
-        <p class="index-text">Factores de riesgo en la unidad educativa</p>       
+        <p class="index-text">TEMA 2 COMUNIDAD RESTAURATIVA: TRABAJO CONJUNTO</p>   
       </div>
       <div class="button-index-container">
-        <button class="jump-buttons" onclick="setPage(24)">Ir</button>
-        <p class="index-text">Violencia en el ámbito educativo</p>       
+        <button class="jump-buttons" onclick="setPage(25)">Ir</button>
+        <p class="index-text">Las bases de una comunidad educativa restaurativa</p>     
       </div>
       <div class="button-index-container">
         <button class="jump-buttons" onclick="setPage(26)">Ir</button>
-        <p class="index-text">Glosario de violencia</p>         
+        <p class="index-text">Maestras y maestros como facilitadores de las prácticas restaurativas</p>       
       </div>
       <div class="button-index-container">
-        <button class="jump-buttons" onclick="setPage(34)">Ir</button>
-        <p class="index-text">TEMA 3: ENFOQUE RESTAURATIVO</p>         
+        <button class="jump-buttons" onclick="setPage(30)">Ir</button>
+        <p class="index-text"> Consejo Educativo en la prevención de conflictos.</p>       
       </div>
       <div class="button-index-container">
-        <button class="jump-buttons" onclick="setPage(38)">Ir</button>
-        <p class="index-text">Diferencias entre el enfoque restaurativo y punitivo en el ámbito educativo</p>         
+        <button class="jump-buttons" onclick="setPage(31)">Ir</button>
+        <p class="index-text">Estudiantes como protagonistas de las prácticas restaurativas</p>       
       </div>
       <div class="button-index-container">
-        <button class="jump-buttons" onclick="setPage(42)">Ir</button>
-        <p class="index-text">Características y principios del enfoque restaurativo</p>         
+        <button class="jump-buttons" onclick="setPage(36)">Ir</button>
+        <p class="index-text">TEMA 3 CREACIÓN DE UNA ZONA EDUCATIVA RESTAURATIVA</p>         
       </div>
       <div class="button-index-container">
-        <button class="jump-buttons" onclick="setPage(45)">Ir</button>
-        <p class="index-text">Ventana de la disciplina social</p>         
+        <button class="jump-buttons" onclick="setPage(39)">Ir</button>
+        <p class="index-text">Concepto y características de una zona restaurativa</p>         
       </div>
       <div class="button-index-container">
-        <button class="jump-buttons" onclick="setPage(49)">Ir</button>
-        <p class="index-text">Glosario</p>         
+        <button class="jump-buttons" onclick="setPage(40)">Ir</button>
+        <p class="index-text">El rol de los integrantes de la comunidad educativa en una zona restaurativa.</p>         
+      </div>
+      <div class="button-index-container">
+        <button class="jump-buttons" onclick="setPage(41)">Ir</button>
+        <p class="index-text">Actividades con enfoque restaurativo.</p>         
+      </div>
+      <div class="button-index-container">
+        <button class="jump-buttons" onclick="setPage(47)">Ir</button>
+        <p class="index-text">Beneficios de una zona educativa restaurativa.</p>         
       </div>
       <div class="button-index-container">
         <button class="jump-buttons" onclick="setPage(50)">Ir</button>
+        <p class="index-text">Glosario</p>          
+      </div>
+      <div class="button-index-container">
+        <button class="jump-buttons" onclick="setPage(55)">Ir</button>
         <p class="index-text">Bibliografia</p>          
       </div>
     </div>

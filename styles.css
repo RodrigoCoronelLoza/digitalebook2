@@ -223,7 +223,7 @@ body {
   text-align: left;
   padding: 2%;
   height: 80%;
-  font-size: 1.1vw;
+  font-size: 1vw;
   /* border: 1px solid palegreen; */
 }
 
@@ -1025,7 +1025,7 @@ body {
   padding: 2%;
   /* line-height: 1.6; */
   height: 80%;
-  /* font-size: 1.2vw; */
+  font-size: 1.2vw;
   /* border: 1px solid violet; */
 }
 
@@ -1127,10 +1127,11 @@ body {
 .Mlayout #Mcarousel-container #Mbuttons #Mbuttons-container .paragButton {
   background-color: #3c96d2;
   color: white;
+  font-size: 0.9vw;
   height: 100%;
   border-radius: 1em;
   border: none;
-  width: 7em;
+  width: 6vw;
   margin-right: 1%;
   /* width: 10%; */
 }
