@@ -1,4 +1,4 @@
-let candidate = Number(localStorage["boo1Unefco"]);
+let candidate = Number(localStorage["book2Unefco"]);
 let currentPage = 0;
 if (candidate > -1 && candidate < Object.keys(textData).length - 1) {
   currentPage = candidate;
@@ -6,6 +6,7 @@ if (candidate > -1 && candidate < Object.keys(textData).length - 1) {
 let currentSlideNumberCarousel = 0;
 let currentParagNumber = 1;
 
+// Esta funcion hace la renderizacion de cada una de las paginas
 function renderPage() {
   const pageContent = document.getElementById("page-content");
   const titleContainer = document.getElementById("book-title-container");
@@ -13,6 +14,7 @@ function renderPage() {
   const advButton = document.getElementById("adv-buttons");
 
   const overlay = document.getElementById("overlay");
+  const indexPermanent = document.getElementById("index-permanent");
 
   pageContent.addEventListener("click", handleDomCLick);
   overlay.addEventListener("click", handleOverlayClick);
@@ -27,8 +29,13 @@ function renderPage() {
     advButton.style.display = "block";
   }
 
+  if (currentPage === 0 || currentPage === 2) {
+    indexPermanent.style.display = "none";
+  } else {
+    indexPermanent.style.display = "block";
+  }
+
   pageContent.className = layoutData[currentPage];
-  //   pageContent.innerHTML = pageData.content;
   pageContent.innerHTML = createStructure(
     titlesData,
     textData,
@@ -40,11 +47,414 @@ function renderPage() {
     buttonsPageNumberData,
     linksData
   );
-  console.log(Number(localStorage["boo1Unefco"]));
-
-  // console.log(modalGenerator(popUpData, 4));
+  colorButton();
 }
+//Poner color al indice de la barra lateral
+function colorButton() {
+  const allButtons = document.getElementById("index-permanent");
+  const indexButton1 = document.getElementById("index-button1");
+  const indexButton2 = document.getElementById("index-button2");
+  const indexButton3 = document.getElementById("index-button3");
+  const indexButton4 = document.getElementById("index-button4");
+  const indexButton5 = document.getElementById("index-button5");
+  const indexButton6 = document.getElementById("index-button6");
+  const indexButton7 = document.getElementById("index-button7");
+  const indexButton8 = document.getElementById("index-button8");
+  const indexButton9 = document.getElementById("index-button9");
+  const indexButton10 = document.getElementById("index-button10");
+  const indexButton11 = document.getElementById("index-button11");
+  const indexButton12 = document.getElementById("index-button12");
+  const indexButton13 = document.getElementById("index-button13");
+  const indexButton14 = document.getElementById("index-button14");
+  const indexButton15 = document.getElementById("index-button15");
+  const indexButton16 = document.getElementById("index-button16");
+  const indexButton17 = document.getElementById("index-button17");
+  const indexButton18 = document.getElementById("index-button18");
+  const indexButton19 = document.getElementById("index-button19");
 
+  if (currentPage >= 0 && currentPage <= 3) {
+    indexButton1.style.fontWeight = "bold";
+    indexButton2.style.fontWeight = "normal";
+    indexButton3.style.fontWeight = "normal";
+    indexButton4.style.fontWeight = "normal";
+    indexButton5.style.fontWeight = "normal";
+    indexButton6.style.fontWeight = "normal";
+    indexButton7.style.fontWeight = "normal";
+    indexButton8.style.fontWeight = "normal";
+    indexButton9.style.fontWeight = "normal";
+    indexButton10.style.fontWeight = "normal";
+    indexButton11.style.fontWeight = "normal";
+    indexButton12.style.fontWeight = "normal";
+    indexButton13.style.fontWeight = "normal";
+    indexButton14.style.fontWeight = "normal";
+    indexButton15.style.fontWeight = "normal";
+    indexButton16.style.fontWeight = "normal";
+    indexButton17.style.fontWeight = "normal";
+    indexButton18.style.fontWeight = "normal";
+    indexButton19.style.fontWeight = "normal";
+  } else if (currentPage === 4) {
+    indexButton2.style.fontWeight = "bold";
+    indexButton1.style.fontWeight = "normal";
+    indexButton3.style.fontWeight = "normal";
+    indexButton4.style.fontWeight = "normal";
+    indexButton5.style.fontWeight = "normal";
+    indexButton6.style.fontWeight = "normal";
+    indexButton7.style.fontWeight = "normal";
+    indexButton8.style.fontWeight = "normal";
+    indexButton9.style.fontWeight = "normal";
+    indexButton10.style.fontWeight = "normal";
+    indexButton11.style.fontWeight = "normal";
+    indexButton12.style.fontWeight = "normal";
+    indexButton13.style.fontWeight = "normal";
+    indexButton14.style.fontWeight = "normal";
+    indexButton15.style.fontWeight = "normal";
+    indexButton16.style.fontWeight = "normal";
+    indexButton17.style.fontWeight = "normal";
+    indexButton18.style.fontWeight = "normal";
+    indexButton19.style.fontWeight = "normal";
+  } else if (currentPage >= 5 && currentPage <= 7) {
+    indexButton3.style.fontWeight = "bold";
+    indexButton1.style.fontWeight = "normal";
+    indexButton2.style.fontWeight = "normal";
+    indexButton4.style.fontWeight = "normal";
+    indexButton5.style.fontWeight = "normal";
+    indexButton6.style.fontWeight = "normal";
+    indexButton7.style.fontWeight = "normal";
+    indexButton8.style.fontWeight = "normal";
+    indexButton9.style.fontWeight = "normal";
+    indexButton10.style.fontWeight = "normal";
+    indexButton11.style.fontWeight = "normal";
+    indexButton12.style.fontWeight = "normal";
+    indexButton13.style.fontWeight = "normal";
+    indexButton14.style.fontWeight = "normal";
+    indexButton15.style.fontWeight = "normal";
+    indexButton16.style.fontWeight = "normal";
+    indexButton17.style.fontWeight = "normal";
+    indexButton18.style.fontWeight = "normal";
+    indexButton19.style.fontWeight = "normal";
+  } else if (currentPage >= 8 && currentPage <= 12) {
+    indexButton4.style.fontWeight = "bold";
+    indexButton1.style.fontWeight = "normal";
+    indexButton2.style.fontWeight = "normal";
+    indexButton3.style.fontWeight = "normal";
+    indexButton5.style.fontWeight = "normal";
+    indexButton6.style.fontWeight = "normal";
+    indexButton7.style.fontWeight = "normal";
+    indexButton8.style.fontWeight = "normal";
+    indexButton9.style.fontWeight = "normal";
+    indexButton10.style.fontWeight = "normal";
+    indexButton11.style.fontWeight = "normal";
+    indexButton12.style.fontWeight = "normal";
+    indexButton13.style.fontWeight = "normal";
+    indexButton14.style.fontWeight = "normal";
+    indexButton15.style.fontWeight = "normal";
+    indexButton16.style.fontWeight = "normal";
+    indexButton17.style.fontWeight = "normal";
+    indexButton18.style.fontWeight = "normal";
+    indexButton19.style.fontWeight = "normal";
+  } else if (currentPage >= 13 && currentPage <= 16) {
+    indexButton5.style.fontWeight = "bold";
+    indexButton1.style.fontWeight = "normal";
+    indexButton2.style.fontWeight = "normal";
+    indexButton3.style.fontWeight = "normal";
+    indexButton4.style.fontWeight = "normal";
+    indexButton6.style.fontWeight = "normal";
+    indexButton7.style.fontWeight = "normal";
+    indexButton8.style.fontWeight = "normal";
+    indexButton9.style.fontWeight = "normal";
+    indexButton10.style.fontWeight = "normal";
+    indexButton11.style.fontWeight = "normal";
+    indexButton12.style.fontWeight = "normal";
+    indexButton13.style.fontWeight = "normal";
+    indexButton14.style.fontWeight = "normal";
+    indexButton15.style.fontWeight = "normal";
+    indexButton16.style.fontWeight = "normal";
+    indexButton17.style.fontWeight = "normal";
+    indexButton18.style.fontWeight = "normal";
+    indexButton19.style.fontWeight = "normal";
+  } else if (currentPage === 17) {
+    indexButton6.style.fontWeight = "bold";
+    indexButton1.style.fontWeight = "normal";
+    indexButton2.style.fontWeight = "normal";
+    indexButton3.style.fontWeight = "normal";
+    indexButton4.style.fontWeight = "normal";
+    indexButton5.style.fontWeight = "normal";
+    indexButton7.style.fontWeight = "normal";
+    indexButton8.style.fontWeight = "normal";
+    indexButton9.style.fontWeight = "normal";
+    indexButton10.style.fontWeight = "normal";
+    indexButton11.style.fontWeight = "normal";
+    indexButton12.style.fontWeight = "normal";
+    indexButton13.style.fontWeight = "normal";
+    indexButton14.style.fontWeight = "normal";
+    indexButton15.style.fontWeight = "normal";
+    indexButton16.style.fontWeight = "normal";
+    indexButton17.style.fontWeight = "normal";
+    indexButton18.style.fontWeight = "normal";
+    indexButton19.style.fontWeight = "normal";
+  } else if (currentPage >= 18 && currentPage <= 21) {
+    indexButton7.style.fontWeight = "bold";
+    indexButton1.style.fontWeight = "normal";
+    indexButton2.style.fontWeight = "normal";
+    indexButton3.style.fontWeight = "normal";
+    indexButton4.style.fontWeight = "normal";
+    indexButton5.style.fontWeight = "normal";
+    indexButton6.style.fontWeight = "normal";
+    indexButton8.style.fontWeight = "normal";
+    indexButton9.style.fontWeight = "normal";
+    indexButton10.style.fontWeight = "normal";
+    indexButton11.style.fontWeight = "normal";
+    indexButton12.style.fontWeight = "normal";
+    indexButton13.style.fontWeight = "normal";
+    indexButton14.style.fontWeight = "normal";
+    indexButton15.style.fontWeight = "normal";
+    indexButton16.style.fontWeight = "normal";
+    indexButton17.style.fontWeight = "normal";
+    indexButton18.style.fontWeight = "normal";
+    indexButton19.style.fontWeight = "normal";
+  } else if (currentPage >= 22 && currentPage <= 24) {
+    indexButton8.style.fontWeight = "bold";
+    indexButton1.style.fontWeight = "normal";
+    indexButton2.style.fontWeight = "normal";
+    indexButton3.style.fontWeight = "normal";
+    indexButton4.style.fontWeight = "normal";
+    indexButton5.style.fontWeight = "normal";
+    indexButton6.style.fontWeight = "normal";
+    indexButton7.style.fontWeight = "normal";
+    indexButton9.style.fontWeight = "normal";
+    indexButton10.style.fontWeight = "normal";
+    indexButton11.style.fontWeight = "normal";
+    indexButton12.style.fontWeight = "normal";
+    indexButton13.style.fontWeight = "normal";
+    indexButton14.style.fontWeight = "normal";
+    indexButton15.style.fontWeight = "normal";
+    indexButton16.style.fontWeight = "normal";
+    indexButton17.style.fontWeight = "normal";
+    indexButton18.style.fontWeight = "normal";
+    indexButton19.style.fontWeight = "normal";
+  } else if (currentPage === 25) {
+    indexButton9.style.fontWeight = "bold";
+    indexButton1.style.fontWeight = "normal";
+    indexButton2.style.fontWeight = "normal";
+    indexButton3.style.fontWeight = "normal";
+    indexButton4.style.fontWeight = "normal";
+    indexButton5.style.fontWeight = "normal";
+    indexButton6.style.fontWeight = "normal";
+    indexButton7.style.fontWeight = "normal";
+    indexButton8.style.fontWeight = "normal";
+    indexButton10.style.fontWeight = "normal";
+    indexButton11.style.fontWeight = "normal";
+    indexButton12.style.fontWeight = "normal";
+    indexButton13.style.fontWeight = "normal";
+    indexButton14.style.fontWeight = "normal";
+    indexButton15.style.fontWeight = "normal";
+    indexButton16.style.fontWeight = "normal";
+    indexButton17.style.fontWeight = "normal";
+    indexButton18.style.fontWeight = "normal";
+    indexButton19.style.fontWeight = "normal";
+  } else if (currentPage >= 26 && currentPage <= 29) {
+    indexButton10.style.fontWeight = "bold";
+    indexButton1.style.fontWeight = "normal";
+    indexButton2.style.fontWeight = "normal";
+    indexButton3.style.fontWeight = "normal";
+    indexButton4.style.fontWeight = "normal";
+    indexButton5.style.fontWeight = "normal";
+    indexButton6.style.fontWeight = "normal";
+    indexButton7.style.fontWeight = "normal";
+    indexButton8.style.fontWeight = "normal";
+    indexButton9.style.fontWeight = "normal";
+    indexButton11.style.fontWeight = "normal";
+    indexButton12.style.fontWeight = "normal";
+    indexButton13.style.fontWeight = "normal";
+    indexButton14.style.fontWeight = "normal";
+    indexButton15.style.fontWeight = "normal";
+    indexButton16.style.fontWeight = "normal";
+    indexButton17.style.fontWeight = "normal";
+    indexButton18.style.fontWeight = "normal";
+    indexButton19.style.fontWeight = "normal";
+  } else if (currentPage === 30) {
+    indexButton11.style.fontWeight = "bold";
+    indexButton1.style.fontWeight = "normal";
+    indexButton2.style.fontWeight = "normal";
+    indexButton3.style.fontWeight = "normal";
+    indexButton4.style.fontWeight = "normal";
+    indexButton5.style.fontWeight = "normal";
+    indexButton6.style.fontWeight = "normal";
+    indexButton7.style.fontWeight = "normal";
+    indexButton8.style.fontWeight = "normal";
+    indexButton9.style.fontWeight = "normal";
+    indexButton10.style.fontWeight = "normal";
+    indexButton12.style.fontWeight = "normal";
+    indexButton13.style.fontWeight = "normal";
+    indexButton14.style.fontWeight = "normal";
+    indexButton15.style.fontWeight = "normal";
+    indexButton16.style.fontWeight = "normal";
+    indexButton17.style.fontWeight = "normal";
+    indexButton18.style.fontWeight = "normal";
+    indexButton19.style.fontWeight = "normal";
+  } else if (currentPage >= 31 && currentPage <= 35) {
+    indexButton12.style.fontWeight = "bold";
+    indexButton1.style.fontWeight = "normal";
+    indexButton2.style.fontWeight = "normal";
+    indexButton3.style.fontWeight = "normal";
+    indexButton4.style.fontWeight = "normal";
+    indexButton5.style.fontWeight = "normal";
+    indexButton6.style.fontWeight = "normal";
+    indexButton7.style.fontWeight = "normal";
+    indexButton8.style.fontWeight = "normal";
+    indexButton9.style.fontWeight = "normal";
+    indexButton10.style.fontWeight = "normal";
+    indexButton11.style.fontWeight = "normal";
+    indexButton13.style.fontWeight = "normal";
+    indexButton14.style.fontWeight = "normal";
+    indexButton15.style.fontWeight = "normal";
+    indexButton16.style.fontWeight = "normal";
+    indexButton17.style.fontWeight = "normal";
+    indexButton18.style.fontWeight = "normal";
+    indexButton19.style.fontWeight = "normal";
+  } else if (currentPage >= 36 && currentPage <= 38) {
+    indexButton13.style.fontWeight = "bold";
+    indexButton1.style.fontWeight = "normal";
+    indexButton2.style.fontWeight = "normal";
+    indexButton3.style.fontWeight = "normal";
+    indexButton4.style.fontWeight = "normal";
+    indexButton5.style.fontWeight = "normal";
+    indexButton6.style.fontWeight = "normal";
+    indexButton7.style.fontWeight = "normal";
+    indexButton8.style.fontWeight = "normal";
+    indexButton9.style.fontWeight = "normal";
+    indexButton10.style.fontWeight = "normal";
+    indexButton11.style.fontWeight = "normal";
+    indexButton12.style.fontWeight = "normal";
+    indexButton14.style.fontWeight = "normal";
+    indexButton15.style.fontWeight = "normal";
+    indexButton16.style.fontWeight = "normal";
+    indexButton17.style.fontWeight = "normal";
+    indexButton18.style.fontWeight = "normal";
+    indexButton19.style.fontWeight = "normal";
+  } else if (currentPage === 39) {
+    indexButton14.style.fontWeight = "bold";
+    indexButton1.style.fontWeight = "normal";
+    indexButton2.style.fontWeight = "normal";
+    indexButton3.style.fontWeight = "normal";
+    indexButton4.style.fontWeight = "normal";
+    indexButton5.style.fontWeight = "normal";
+    indexButton6.style.fontWeight = "normal";
+    indexButton7.style.fontWeight = "normal";
+    indexButton8.style.fontWeight = "normal";
+    indexButton9.style.fontWeight = "normal";
+    indexButton10.style.fontWeight = "normal";
+    indexButton11.style.fontWeight = "normal";
+    indexButton12.style.fontWeight = "normal";
+    indexButton13.style.fontWeight = "normal";
+    indexButton15.style.fontWeight = "normal";
+    indexButton16.style.fontWeight = "normal";
+    indexButton17.style.fontWeight = "normal";
+    indexButton18.style.fontWeight = "normal";
+    indexButton19.style.fontWeight = "normal";
+  } else if (currentPage === 40) {
+    indexButton15.style.fontWeight = "bold";
+    indexButton1.style.fontWeight = "normal";
+    indexButton2.style.fontWeight = "normal";
+    indexButton3.style.fontWeight = "normal";
+    indexButton4.style.fontWeight = "normal";
+    indexButton5.style.fontWeight = "normal";
+    indexButton6.style.fontWeight = "normal";
+    indexButton7.style.fontWeight = "normal";
+    indexButton8.style.fontWeight = "normal";
+    indexButton9.style.fontWeight = "normal";
+    indexButton10.style.fontWeight = "normal";
+    indexButton11.style.fontWeight = "normal";
+    indexButton12.style.fontWeight = "normal";
+    indexButton13.style.fontWeight = "normal";
+    indexButton14.style.fontWeight = "normal";
+    indexButton16.style.fontWeight = "normal";
+    indexButton17.style.fontWeight = "normal";
+    indexButton18.style.fontWeight = "normal";
+    indexButton19.style.fontWeight = "normal";
+  } else if (currentPage >= 41 && currentPage <= 46) {
+    indexButton16.style.fontWeight = "bold";
+    indexButton1.style.fontWeight = "normal";
+    indexButton2.style.fontWeight = "normal";
+    indexButton3.style.fontWeight = "normal";
+    indexButton4.style.fontWeight = "normal";
+    indexButton5.style.fontWeight = "normal";
+    indexButton6.style.fontWeight = "normal";
+    indexButton7.style.fontWeight = "normal";
+    indexButton8.style.fontWeight = "normal";
+    indexButton9.style.fontWeight = "normal";
+    indexButton10.style.fontWeight = "normal";
+    indexButton11.style.fontWeight = "normal";
+    indexButton12.style.fontWeight = "normal";
+    indexButton13.style.fontWeight = "normal";
+    indexButton14.style.fontWeight = "normal";
+    indexButton15.style.fontWeight = "normal";
+    indexButton17.style.fontWeight = "normal";
+    indexButton18.style.fontWeight = "normal";
+    indexButton19.style.fontWeight = "normal";
+  } else if (currentPage >= 47 && currentPage <= 49) {
+    indexButton17.style.fontWeight = "bold";
+    indexButton1.style.fontWeight = "normal";
+    indexButton2.style.fontWeight = "normal";
+    indexButton3.style.fontWeight = "normal";
+    indexButton4.style.fontWeight = "normal";
+    indexButton5.style.fontWeight = "normal";
+    indexButton6.style.fontWeight = "normal";
+    indexButton7.style.fontWeight = "normal";
+    indexButton8.style.fontWeight = "normal";
+    indexButton9.style.fontWeight = "normal";
+    indexButton10.style.fontWeight = "normal";
+    indexButton11.style.fontWeight = "normal";
+    indexButton12.style.fontWeight = "normal";
+    indexButton13.style.fontWeight = "normal";
+    indexButton14.style.fontWeight = "normal";
+    indexButton15.style.fontWeight = "normal";
+    indexButton16.style.fontWeight = "normal";
+    indexButton18.style.fontWeight = "normal";
+    indexButton19.style.fontWeight = "normal";
+  } else if (currentPage >= 50 && currentPage <= 54) {
+    indexButton18.style.fontWeight = "bold";
+    indexButton1.style.fontWeight = "normal";
+    indexButton2.style.fontWeight = "normal";
+    indexButton3.style.fontWeight = "normal";
+    indexButton4.style.fontWeight = "normal";
+    indexButton5.style.fontWeight = "normal";
+    indexButton6.style.fontWeight = "normal";
+    indexButton7.style.fontWeight = "normal";
+    indexButton8.style.fontWeight = "normal";
+    indexButton9.style.fontWeight = "normal";
+    indexButton10.style.fontWeight = "normal";
+    indexButton11.style.fontWeight = "normal";
+    indexButton12.style.fontWeight = "normal";
+    indexButton13.style.fontWeight = "normal";
+    indexButton14.style.fontWeight = "normal";
+    indexButton15.style.fontWeight = "normal";
+    indexButton16.style.fontWeight = "normal";
+    indexButton17.style.fontWeight = "normal";
+    indexButton19.style.fontWeight = "normal";
+  } else if (currentPage === 55) {
+    indexButton19.style.fontWeight = "bold";
+    indexButton1.style.fontWeight = "normal";
+    indexButton2.style.fontWeight = "normal";
+    indexButton3.style.fontWeight = "normal";
+    indexButton4.style.fontWeight = "normal";
+    indexButton5.style.fontWeight = "normal";
+    indexButton6.style.fontWeight = "normal";
+    indexButton7.style.fontWeight = "normal";
+    indexButton8.style.fontWeight = "normal";
+    indexButton9.style.fontWeight = "normal";
+    indexButton10.style.fontWeight = "normal";
+    indexButton11.style.fontWeight = "normal";
+    indexButton12.style.fontWeight = "normal";
+    indexButton13.style.fontWeight = "normal";
+    indexButton14.style.fontWeight = "normal";
+    indexButton15.style.fontWeight = "normal";
+    indexButton16.style.fontWeight = "normal";
+    indexButton17.style.fontWeight = "normal";
+    indexButton18.style.fontWeight = "normal";
+  }
+}
+//Rastrear el click en en DOM dinamico
 const handleDomCLick = (event) => {
   const clickedBtn = event.target;
   const classIdentifier = clickedBtn.className.slice(0, 4);
@@ -57,22 +467,20 @@ const handleDomCLick = (event) => {
     closeModal(modal);
   } else if (classIdentifier === "para") {
     let targetIdButton = "buttonParag" + currentParagNumber;
-    // console.log(typeof targetIdButton);
     const pointedButton = document.getElementById(targetIdButton);
     pointedButton.style.backgroundColor = "#1d3e8b";
   }
 };
 
 const handleOverlayClick = (event) => {
-  //   console.log("en el overlay");
   const clickedBtn = event.target;
-  //   console.log(clickedBtn);
   const modals = document.querySelectorAll(".modal.active");
   modals.forEach((modal) => {
     closeModal(modal);
   });
 };
 
+//Siguiente pagina
 function nextPage() {
   if (currentPage < Object.keys(textData).length - 1) {
     currentPage++;
@@ -83,6 +491,7 @@ function nextPage() {
   }
 }
 
+//Pagina anterior
 function prevPage() {
   if (currentPage > 0) {
     currentPage--;
@@ -91,21 +500,21 @@ function prevPage() {
   }
 }
 
+//Pagina arbitraria
 function setPage(value) {
-  // console.log(value);
   currentPage = value;
   setSlidetoInitial();
   setParagh(1);
   cachePage();
   masterRender();
 }
-
+//Guardar en la memoria cache
 function cachePage() {
   let currentPageString = String(currentPage);
-  localStorage["boo1Unefco"] = currentPageString;
-  // console.log(currentPageString);
+  localStorage["book2Unefco"] = currentPageString;
 }
 
+//Crear el DOM dinamico
 function createStructure(
   titles,
   text,
@@ -152,7 +561,7 @@ function createStructure(
   }
   return content;
 }
-
+// Plantilla A
 function ALayoutGenerator(titles, text, page) {
   return `
   <div class="Alayout-container">
@@ -163,15 +572,18 @@ function ALayoutGenerator(titles, text, page) {
   </div>  `;
 }
 
+// Plantilla B
 function BLayOutGenerator(titles, text, page) {
-  return ` <div id="Blayout-container">
-  <h1 class="titles" id="Btitle">${titles[page]}</h1>
-  <div id="Btext-container">
-  <p class="text" id="Btext">${text[page]}</p>
-  </div>
+  return ` 
+  <div id="Blayout-container">
+    <h1 class="titles" id="Btitle">${titles[page]}</h1>
+    <div id="Btext-container">
+      <p class="text" id="Btext">${text[page]}</p>
+    </div>
   </div>`;
 }
 
+// Plantilla C
 function CLayOutGenerator(titles, text, page) {
   return ` 
   <div id="Clayout-container">
@@ -179,15 +591,15 @@ function CLayOutGenerator(titles, text, page) {
     <div id="Cindex-buttons">
       <div class="button-index-container">
         <button class="jump-buttons" onclick="setPage(3)">Ir</button> 
-        <p class="index-text">Presentacion</p>
+        <p class="index-text">Presentaci&oacuten</p>
       </div>
       <div class="button-index-container">
-        <button class="jump-buttons" onclick="setPage(4)">Ir</button> 
-        <p class="index-text">DATOS GENERALES DEL CUADERNO</p>
+        <button class="jump-buttons" onclick="setPage(4)">Ir</button>
+        <p class="index-text">DATOS GENERALES DEL CUADERNO</p> 
       </div>
       <div class="button-index-container">
         <button class="jump-buttons" onclick="setPage(5)">Ir</button>
-        <p class="index-text">TEMA 1 DE LA JUSTICIA RESTAURATIVA A LAS PRÁCTICAS</p> 
+        <p class="index-text">TEMA 1: DE LA JUSTICIA RESTAURATICA A LAS PRACTICAS</p> 
       </div>
       <div class="button-index-container">
         <button class="jump-buttons" onclick="setPage(8)">Ir</button>
@@ -207,7 +619,7 @@ function CLayOutGenerator(titles, text, page) {
       </div>
       <div class="button-index-container">
         <button class="jump-buttons" onclick="setPage(22)">Ir</button>
-        <p class="index-text">TEMA 2 COMUNIDAD RESTAURATIVA: TRABAJO CONJUNTO</p>   
+        <p class="index-text">TEMA 2: COMUNIDAD RESTAURATIVA: TRABAJO CONJUNTO</p>   
       </div>
       <div class="button-index-container">
         <button class="jump-buttons" onclick="setPage(25)">Ir</button>
@@ -219,7 +631,7 @@ function CLayOutGenerator(titles, text, page) {
       </div>
       <div class="button-index-container">
         <button class="jump-buttons" onclick="setPage(30)">Ir</button>
-        <p class="index-text"> Consejo Educativo en la prevención de conflictos.</p>       
+        <p class="index-text">Consejo Educativo en la prevención de conflictos</p>       
       </div>
       <div class="button-index-container">
         <button class="jump-buttons" onclick="setPage(31)">Ir</button>
@@ -227,7 +639,7 @@ function CLayOutGenerator(titles, text, page) {
       </div>
       <div class="button-index-container">
         <button class="jump-buttons" onclick="setPage(36)">Ir</button>
-        <p class="index-text">TEMA 3 CREACIÓN DE UNA ZONA EDUCATIVA RESTAURATIVA</p>         
+        <p class="index-text">TEMA 3: CREACIÓN DE UNA ZONA EDUCATIVA RESTAURATIVA</p>         
       </div>
       <div class="button-index-container">
         <button class="jump-buttons" onclick="setPage(39)">Ir</button>
@@ -235,19 +647,19 @@ function CLayOutGenerator(titles, text, page) {
       </div>
       <div class="button-index-container">
         <button class="jump-buttons" onclick="setPage(40)">Ir</button>
-        <p class="index-text">El rol de los integrantes de la comunidad educativa en una zona restaurativa.</p>         
+        <p class="index-text">El rol de los integrantes de la comunidad educativa en una zona restaurativa</p>         
       </div>
       <div class="button-index-container">
         <button class="jump-buttons" onclick="setPage(41)">Ir</button>
-        <p class="index-text">Actividades con enfoque restaurativo.</p>         
+        <p class="index-text">Actividades con enfoque restaurativo</p>         
       </div>
       <div class="button-index-container">
         <button class="jump-buttons" onclick="setPage(47)">Ir</button>
-        <p class="index-text">Beneficios de una zona educativa restaurativa.</p>         
+        <p class="index-text">Beneficios de una zona educativa restaurativa</p>         
       </div>
       <div class="button-index-container">
         <button class="jump-buttons" onclick="setPage(50)">Ir</button>
-        <p class="index-text">Glosario</p>          
+        <p class="index-text">Glosario</p>         
       </div>
       <div class="button-index-container">
         <button class="jump-buttons" onclick="setPage(55)">Ir</button>
@@ -257,6 +669,7 @@ function CLayOutGenerator(titles, text, page) {
   </div>`;
 }
 
+// Plantilla D
 function DLayOutGenerator(titles, text, page, images, popUp) {
   return `<h1 class="titles">${titles[page]}</h1>
   <div id="Dlayout-container">
@@ -274,6 +687,7 @@ function DLayOutGenerator(titles, text, page, images, popUp) {
   </div>`;
 }
 
+// Plantilla E
 function ELayOutGenerator(images, page, buttonName, buttonsPageNumber) {
   return `
   <div id="Elayout-container">
@@ -289,9 +703,9 @@ function ELayOutGenerator(images, page, buttonName, buttonsPageNumber) {
       </div>
     </div>
   </div>`;
-  // return `<div>${images[page]}</div>`;
 }
 
+// Plantilla F
 function FLayOutGenerator(title, text, images, page, links) {
   return `
   <div id="Flayout-container">
@@ -310,6 +724,7 @@ function FLayOutGenerator(title, text, images, page, links) {
   </div>`;
 }
 
+// Plantilla G
 function GLayOutGenerator(title, text, page, popUp) {
   return `
   <div id="Glayout-container">
@@ -327,8 +742,8 @@ function GLayOutGenerator(title, text, page, popUp) {
   </div>`;
 }
 
+// Plantilla H
 function HLayOutGenerator(title, text, page, popUp) {
-  // console.log(modalGenerator(popUp, page, 0));
   return `
   <div id="Hlayout-container">
     <div id="Hrow1">
@@ -351,8 +766,9 @@ function HLayOutGenerator(title, text, page, popUp) {
     </div>
   </div>`;
 }
+
+// Plantilla I
 function ILayOutGenerator(title, text, images, page, links) {
-  // console.log(images[page][0]);
   return `
   <div id="Ilayout-container">
     <div id="Icolumn1">
@@ -379,9 +795,10 @@ function ILayOutGenerator(title, text, images, page, links) {
     </div>
   </div>`;
 }
+
+// Plantilla J
 function JLayOutGenerator(title, text, images, page) {
   let numberOfSlidesCarousel = images[page].length;
-  // console.log(numberOfSlidesCarousel);
   return `
   <div id="Jlayout-container">
     <h1 class="titles" id="Jtitle">${title[page]}</h1>
@@ -402,6 +819,7 @@ function JLayOutGenerator(title, text, images, page) {
   </div>`;
 }
 
+//Carrusel siguiente
 function nextSlide(numberOfSlides) {
   if (currentSlideNumberCarousel < numberOfSlides - 1) {
     currentSlideNumberCarousel++;
@@ -409,6 +827,7 @@ function nextSlide(numberOfSlides) {
   }
 }
 
+//Carrusel anterior
 function prevSlide() {
   if (currentSlideNumberCarousel > 0) {
     currentSlideNumberCarousel--;
@@ -416,9 +835,12 @@ function prevSlide() {
   }
 }
 
+//Carrusel arbitrario
 function setSlidetoInitial() {
   currentSlideNumberCarousel = 0;
 }
+
+//Plantilla K
 function KLayOutGenerator(title, text, images, page) {
   return `
   <div id="Klayout-container">
@@ -434,6 +856,8 @@ function KLayOutGenerator(title, text, images, page) {
     </div>
   </div>`;
 }
+
+//Plantilla L
 function LLayOutGenerator(title, text, page, popUp) {
   return `
   <div id="Llayout-container">
@@ -446,9 +870,10 @@ function LLayOutGenerator(title, text, page, popUp) {
     </div>
   </div>`;
 }
+
+//Plantilla M
 function MLayOutGenerator(title, text, images, page, buttonName) {
   let numberOfParagraphs = text[page].length;
-  // console.log(numberOfParagraphs);
   return `
   <div id="Mlayout-container">
     <h1 class="titles" id="Mtitle">${title[page]}</h1>
@@ -467,6 +892,7 @@ function MLayOutGenerator(title, text, images, page, buttonName) {
     </div>
   </div>`;
 }
+
 function MbuttonGenerator(numberOfParagraphs, page, buttonName) {
   let result = "";
   for (let i = 1; i < numberOfParagraphs; i++) {
@@ -483,6 +909,8 @@ function setParagh(numberToSet) {
   currentParagNumber = numberToSet;
   masterRender();
 }
+
+//Plantilla N
 function NLayOutGenerator(title, text, page, popUp) {
   return `<div id="Nlayout-container">
   <h1 class="titles" id="Ntitle">${title[page]}</h1>
@@ -499,6 +927,7 @@ function NLayOutGenerator(title, text, page, popUp) {
   </div>
   </div>`;
 }
+
 function WLayOutGenerator(titles, text, page, popUp) {
   return `<h2>${
     titles[page]
@@ -524,6 +953,7 @@ function WLayOutGenerator(titles, text, page, popUp) {
     </div>`;
 }
 
+//Generar los pop-ups
 function modalGenerator(popUp, page, selector) {
   let initial = 0;
   let final = 0;
@@ -539,33 +969,35 @@ function modalGenerator(popUp, page, selector) {
     }
   }
 
-  // let result = `<div class="modals-container">`;
-
   let result = "";
 
   for (let i = initial; i < final; i++) {
     result =
       result +
-      `<div id="modal-container${i}"><button data-modal-target="#modal${i}" class="open-button${i}">${modalExtractor(
+      `<div id="modal-container${i}">
+        <button data-modal-target="#modal${i}" 
+          class="open-button${i}">${modalExtractor(
         popUp,
         page,
         "buttonName",
         i
-      )}</button>
-    <div class="modal" id="modal${i}">
-      <div class="modal-header">
-        <div class="title">${modalExtractor(popUp, page, "title", i)}</div>
-        <button data-close-button class="close-button">&times;</button>
-      </div>
-      <div class="modal-body">
-        ${modalExtractor(popUp, page, "contentModal", i)}
-      </div>
-    </div>
-    </div>`;
+      )}
+        </button>
+        <div class="modal" id="modal${i}">
+          <div class="modal-header">
+            <div class="title">${modalExtractor(popUp, page, "title", i)}</div>
+            <button data-close-button class="close-button">&times;</button>
+          </div>
+          <div class="modal-body">
+            ${modalExtractor(popUp, page, "contentModal", i)}
+          </div>
+        </div>
+      </div>`;
   }
-  // result = result + `</div>`;
   return result;
 }
+
+//extraer la informacion de los modals
 function modalExtractor(popUps, page, partofModal, numberModal) {
   if (partofModal === "title") {
     return popUps[page][numberModal].title;
@@ -582,12 +1014,14 @@ function modalExtractor(popUps, page, partofModal, numberModal) {
   }
 }
 
+//abrir pop-up
 function openModal(modal) {
   if (modal == null) return;
   modal.classList.add("active");
   overlay.classList.add("active");
 }
 
+//cerrar pop-up
 function closeModal(modal) {
   if (modal == null) return;
   modal.classList.remove("active");
@@ -598,8 +1032,7 @@ function masterRender() {
   renderPage();
   const pointedButton = document.getElementById("buttonParag1");
   if (pointedButton && currentParagNumber === 1) {
-    pointedButton.style.backgroundColor = "#1d3e8b";
+    pointedButton.style.backgroundColor = "#854d92";
   }
-  // console.log(pointedButton);
 }
 masterRender();
