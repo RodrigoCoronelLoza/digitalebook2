@@ -51,6 +51,7 @@ function renderPage() {
 }
 //Poner color al indice de la barra lateral
 function colorButton() {
+  // console.log(currentPage);
   const allButtons = document.getElementById("index-permanent");
   const indexButton1 = document.getElementById("index-button1");
   const indexButton2 = document.getElementById("index-button2");
@@ -71,6 +72,10 @@ function colorButton() {
   const indexButton17 = document.getElementById("index-button17");
   const indexButton18 = document.getElementById("index-button18");
   const indexButton19 = document.getElementById("index-button19");
+  const indexButton20 = document.getElementById("index-button20");
+  const indexButton21 = document.getElementById("index-button21");
+  const indexButton22 = document.getElementById("index-button22");
+  // const indexButton23 = document.getElementById("index-button23");
 
   if (currentPage >= 0 && currentPage <= 3) {
     indexButton1.style.fontWeight = "bold";
@@ -92,6 +97,10 @@ function colorButton() {
     indexButton17.style.fontWeight = "normal";
     indexButton18.style.fontWeight = "normal";
     indexButton19.style.fontWeight = "normal";
+    indexButton20.style.fontWeight = "normal";
+    indexButton21.style.fontWeight = "normal";
+    indexButton22.style.fontWeight = "normal";
+    // indexButton23.style.fontWeight = "normal";
   } else if (currentPage === 4) {
     indexButton2.style.fontWeight = "bold";
     indexButton1.style.fontWeight = "normal";
@@ -112,10 +121,14 @@ function colorButton() {
     indexButton17.style.fontWeight = "normal";
     indexButton18.style.fontWeight = "normal";
     indexButton19.style.fontWeight = "normal";
-  } else if (currentPage >= 5 && currentPage <= 7) {
+    indexButton20.style.fontWeight = "normal";
+    indexButton21.style.fontWeight = "normal";
+    indexButton22.style.fontWeight = "normal";
+    // indexButton23.style.fontWeight = "normal";
+  } else if (currentPage === 5) {
     indexButton3.style.fontWeight = "bold";
-    indexButton1.style.fontWeight = "normal";
     indexButton2.style.fontWeight = "normal";
+    indexButton1.style.fontWeight = "normal";
     indexButton4.style.fontWeight = "normal";
     indexButton5.style.fontWeight = "normal";
     indexButton6.style.fontWeight = "normal";
@@ -132,11 +145,15 @@ function colorButton() {
     indexButton17.style.fontWeight = "normal";
     indexButton18.style.fontWeight = "normal";
     indexButton19.style.fontWeight = "normal";
-  } else if (currentPage >= 8 && currentPage <= 12) {
+    indexButton20.style.fontWeight = "normal";
+    indexButton21.style.fontWeight = "normal";
+    indexButton22.style.fontWeight = "normal";
+    // indexButton23.style.fontWeight = "normal";
+  } else if (currentPage >= 6 && currentPage <= 7) {
     indexButton4.style.fontWeight = "bold";
-    indexButton1.style.fontWeight = "normal";
     indexButton2.style.fontWeight = "normal";
     indexButton3.style.fontWeight = "normal";
+    indexButton1.style.fontWeight = "normal";
     indexButton5.style.fontWeight = "normal";
     indexButton6.style.fontWeight = "normal";
     indexButton7.style.fontWeight = "normal";
@@ -152,12 +169,16 @@ function colorButton() {
     indexButton17.style.fontWeight = "normal";
     indexButton18.style.fontWeight = "normal";
     indexButton19.style.fontWeight = "normal";
-  } else if (currentPage >= 13 && currentPage <= 16) {
+    indexButton20.style.fontWeight = "normal";
+    indexButton21.style.fontWeight = "normal";
+    indexButton22.style.fontWeight = "normal";
+    // indexButton23.style.fontWeight = "normal";
+  } else if (currentPage >= 8 && currentPage <= 12) {
     indexButton5.style.fontWeight = "bold";
-    indexButton1.style.fontWeight = "normal";
     indexButton2.style.fontWeight = "normal";
     indexButton3.style.fontWeight = "normal";
     indexButton4.style.fontWeight = "normal";
+    indexButton1.style.fontWeight = "normal";
     indexButton6.style.fontWeight = "normal";
     indexButton7.style.fontWeight = "normal";
     indexButton8.style.fontWeight = "normal";
@@ -172,13 +193,17 @@ function colorButton() {
     indexButton17.style.fontWeight = "normal";
     indexButton18.style.fontWeight = "normal";
     indexButton19.style.fontWeight = "normal";
-  } else if (currentPage === 17) {
+    indexButton20.style.fontWeight = "normal";
+    indexButton21.style.fontWeight = "normal";
+    indexButton22.style.fontWeight = "normal";
+    // indexButton23.style.fontWeight = "normal";
+  } else if (currentPage >= 13 && currentPage <= 16) {
     indexButton6.style.fontWeight = "bold";
-    indexButton1.style.fontWeight = "normal";
     indexButton2.style.fontWeight = "normal";
     indexButton3.style.fontWeight = "normal";
     indexButton4.style.fontWeight = "normal";
     indexButton5.style.fontWeight = "normal";
+    indexButton1.style.fontWeight = "normal";
     indexButton7.style.fontWeight = "normal";
     indexButton8.style.fontWeight = "normal";
     indexButton9.style.fontWeight = "normal";
@@ -192,14 +217,18 @@ function colorButton() {
     indexButton17.style.fontWeight = "normal";
     indexButton18.style.fontWeight = "normal";
     indexButton19.style.fontWeight = "normal";
-  } else if (currentPage >= 18 && currentPage <= 21) {
+    indexButton20.style.fontWeight = "normal";
+    indexButton21.style.fontWeight = "normal";
+    indexButton22.style.fontWeight = "normal";
+    // indexButton23.style.fontWeight = "normal";
+  } else if (currentPage >= 17 && currentPage <= 20) {
     indexButton7.style.fontWeight = "bold";
-    indexButton1.style.fontWeight = "normal";
     indexButton2.style.fontWeight = "normal";
     indexButton3.style.fontWeight = "normal";
     indexButton4.style.fontWeight = "normal";
     indexButton5.style.fontWeight = "normal";
     indexButton6.style.fontWeight = "normal";
+    indexButton1.style.fontWeight = "normal";
     indexButton8.style.fontWeight = "normal";
     indexButton9.style.fontWeight = "normal";
     indexButton10.style.fontWeight = "normal";
@@ -212,15 +241,19 @@ function colorButton() {
     indexButton17.style.fontWeight = "normal";
     indexButton18.style.fontWeight = "normal";
     indexButton19.style.fontWeight = "normal";
-  } else if (currentPage >= 22 && currentPage <= 24) {
+    indexButton20.style.fontWeight = "normal";
+    indexButton21.style.fontWeight = "normal";
+    indexButton22.style.fontWeight = "normal";
+    // indexButton23.style.fontWeight = "normal";
+  } else if (currentPage === 21) {
     indexButton8.style.fontWeight = "bold";
-    indexButton1.style.fontWeight = "normal";
     indexButton2.style.fontWeight = "normal";
     indexButton3.style.fontWeight = "normal";
     indexButton4.style.fontWeight = "normal";
     indexButton5.style.fontWeight = "normal";
     indexButton6.style.fontWeight = "normal";
     indexButton7.style.fontWeight = "normal";
+    indexButton1.style.fontWeight = "normal";
     indexButton9.style.fontWeight = "normal";
     indexButton10.style.fontWeight = "normal";
     indexButton11.style.fontWeight = "normal";
@@ -232,9 +265,12 @@ function colorButton() {
     indexButton17.style.fontWeight = "normal";
     indexButton18.style.fontWeight = "normal";
     indexButton19.style.fontWeight = "normal";
-  } else if (currentPage === 25) {
+    indexButton20.style.fontWeight = "normal";
+    indexButton21.style.fontWeight = "normal";
+    indexButton22.style.fontWeight = "normal";
+    // indexButton23.style.fontWeight = "normal";
+  } else if (currentPage === 22) {
     indexButton9.style.fontWeight = "bold";
-    indexButton1.style.fontWeight = "normal";
     indexButton2.style.fontWeight = "normal";
     indexButton3.style.fontWeight = "normal";
     indexButton4.style.fontWeight = "normal";
@@ -242,6 +278,7 @@ function colorButton() {
     indexButton6.style.fontWeight = "normal";
     indexButton7.style.fontWeight = "normal";
     indexButton8.style.fontWeight = "normal";
+    indexButton1.style.fontWeight = "normal";
     indexButton10.style.fontWeight = "normal";
     indexButton11.style.fontWeight = "normal";
     indexButton12.style.fontWeight = "normal";
@@ -252,9 +289,12 @@ function colorButton() {
     indexButton17.style.fontWeight = "normal";
     indexButton18.style.fontWeight = "normal";
     indexButton19.style.fontWeight = "normal";
-  } else if (currentPage >= 26 && currentPage <= 29) {
+    indexButton20.style.fontWeight = "normal";
+    indexButton21.style.fontWeight = "normal";
+    indexButton22.style.fontWeight = "normal";
+    // indexButton23.style.fontWeight = "normal";
+  } else if (currentPage >= 23 && currentPage <= 24) {
     indexButton10.style.fontWeight = "bold";
-    indexButton1.style.fontWeight = "normal";
     indexButton2.style.fontWeight = "normal";
     indexButton3.style.fontWeight = "normal";
     indexButton4.style.fontWeight = "normal";
@@ -263,6 +303,7 @@ function colorButton() {
     indexButton7.style.fontWeight = "normal";
     indexButton8.style.fontWeight = "normal";
     indexButton9.style.fontWeight = "normal";
+    indexButton1.style.fontWeight = "normal";
     indexButton11.style.fontWeight = "normal";
     indexButton12.style.fontWeight = "normal";
     indexButton13.style.fontWeight = "normal";
@@ -272,9 +313,12 @@ function colorButton() {
     indexButton17.style.fontWeight = "normal";
     indexButton18.style.fontWeight = "normal";
     indexButton19.style.fontWeight = "normal";
-  } else if (currentPage === 30) {
+    indexButton20.style.fontWeight = "normal";
+    indexButton21.style.fontWeight = "normal";
+    indexButton22.style.fontWeight = "normal";
+    // indexButton23.style.fontWeight = "normal";
+  } else if (currentPage ===25) {
     indexButton11.style.fontWeight = "bold";
-    indexButton1.style.fontWeight = "normal";
     indexButton2.style.fontWeight = "normal";
     indexButton3.style.fontWeight = "normal";
     indexButton4.style.fontWeight = "normal";
@@ -284,6 +328,7 @@ function colorButton() {
     indexButton8.style.fontWeight = "normal";
     indexButton9.style.fontWeight = "normal";
     indexButton10.style.fontWeight = "normal";
+    indexButton1.style.fontWeight = "normal";
     indexButton12.style.fontWeight = "normal";
     indexButton13.style.fontWeight = "normal";
     indexButton14.style.fontWeight = "normal";
@@ -292,9 +337,12 @@ function colorButton() {
     indexButton17.style.fontWeight = "normal";
     indexButton18.style.fontWeight = "normal";
     indexButton19.style.fontWeight = "normal";
-  } else if (currentPage >= 31 && currentPage <= 35) {
+    indexButton20.style.fontWeight = "normal";
+    indexButton21.style.fontWeight = "normal";
+    indexButton22.style.fontWeight = "normal";
+    // indexButton23.style.fontWeight = "normal";
+  } else if (currentPage >= 26 && currentPage <= 29) {
     indexButton12.style.fontWeight = "bold";
-    indexButton1.style.fontWeight = "normal";
     indexButton2.style.fontWeight = "normal";
     indexButton3.style.fontWeight = "normal";
     indexButton4.style.fontWeight = "normal";
@@ -305,6 +353,7 @@ function colorButton() {
     indexButton9.style.fontWeight = "normal";
     indexButton10.style.fontWeight = "normal";
     indexButton11.style.fontWeight = "normal";
+    indexButton1.style.fontWeight = "normal";
     indexButton13.style.fontWeight = "normal";
     indexButton14.style.fontWeight = "normal";
     indexButton15.style.fontWeight = "normal";
@@ -312,9 +361,12 @@ function colorButton() {
     indexButton17.style.fontWeight = "normal";
     indexButton18.style.fontWeight = "normal";
     indexButton19.style.fontWeight = "normal";
-  } else if (currentPage >= 36 && currentPage <= 38) {
+    indexButton20.style.fontWeight = "normal";
+    indexButton21.style.fontWeight = "normal";
+    indexButton22.style.fontWeight = "normal";
+    // indexButton23.style.fontWeight = "normal";
+  } else if (currentPage >= 30 && currentPage <= 34) {
     indexButton13.style.fontWeight = "bold";
-    indexButton1.style.fontWeight = "normal";
     indexButton2.style.fontWeight = "normal";
     indexButton3.style.fontWeight = "normal";
     indexButton4.style.fontWeight = "normal";
@@ -326,15 +378,19 @@ function colorButton() {
     indexButton10.style.fontWeight = "normal";
     indexButton11.style.fontWeight = "normal";
     indexButton12.style.fontWeight = "normal";
+    indexButton1.style.fontWeight = "normal";
     indexButton14.style.fontWeight = "normal";
     indexButton15.style.fontWeight = "normal";
     indexButton16.style.fontWeight = "normal";
     indexButton17.style.fontWeight = "normal";
     indexButton18.style.fontWeight = "normal";
     indexButton19.style.fontWeight = "normal";
-  } else if (currentPage === 39) {
+    indexButton20.style.fontWeight = "normal";
+    indexButton21.style.fontWeight = "normal";
+    indexButton22.style.fontWeight = "normal";
+    // indexButton23.style.fontWeight = "normal";
+  } else if (currentPage === 35) {
     indexButton14.style.fontWeight = "bold";
-    indexButton1.style.fontWeight = "normal";
     indexButton2.style.fontWeight = "normal";
     indexButton3.style.fontWeight = "normal";
     indexButton4.style.fontWeight = "normal";
@@ -347,14 +403,18 @@ function colorButton() {
     indexButton11.style.fontWeight = "normal";
     indexButton12.style.fontWeight = "normal";
     indexButton13.style.fontWeight = "normal";
+    indexButton1.style.fontWeight = "normal";
     indexButton15.style.fontWeight = "normal";
     indexButton16.style.fontWeight = "normal";
     indexButton17.style.fontWeight = "normal";
     indexButton18.style.fontWeight = "normal";
     indexButton19.style.fontWeight = "normal";
-  } else if (currentPage === 40) {
+    indexButton20.style.fontWeight = "normal";
+    indexButton21.style.fontWeight = "normal";
+    indexButton22.style.fontWeight = "normal";
+    // indexButton23.style.fontWeight = "normal";
+  } else if (currentPage === 36) {
     indexButton15.style.fontWeight = "bold";
-    indexButton1.style.fontWeight = "normal";
     indexButton2.style.fontWeight = "normal";
     indexButton3.style.fontWeight = "normal";
     indexButton4.style.fontWeight = "normal";
@@ -368,13 +428,17 @@ function colorButton() {
     indexButton12.style.fontWeight = "normal";
     indexButton13.style.fontWeight = "normal";
     indexButton14.style.fontWeight = "normal";
+    indexButton1.style.fontWeight = "normal";
     indexButton16.style.fontWeight = "normal";
     indexButton17.style.fontWeight = "normal";
     indexButton18.style.fontWeight = "normal";
     indexButton19.style.fontWeight = "normal";
-  } else if (currentPage >= 41 && currentPage <= 46) {
+    indexButton20.style.fontWeight = "normal";
+    indexButton21.style.fontWeight = "normal";
+    indexButton22.style.fontWeight = "normal";
+    // indexButton23.style.fontWeight = "normal";
+  } else if (currentPage >= 37 && currentPage <= 38) {
     indexButton16.style.fontWeight = "bold";
-    indexButton1.style.fontWeight = "normal";
     indexButton2.style.fontWeight = "normal";
     indexButton3.style.fontWeight = "normal";
     indexButton4.style.fontWeight = "normal";
@@ -389,12 +453,16 @@ function colorButton() {
     indexButton13.style.fontWeight = "normal";
     indexButton14.style.fontWeight = "normal";
     indexButton15.style.fontWeight = "normal";
+    indexButton1.style.fontWeight = "normal";
     indexButton17.style.fontWeight = "normal";
     indexButton18.style.fontWeight = "normal";
     indexButton19.style.fontWeight = "normal";
-  } else if (currentPage >= 47 && currentPage <= 49) {
+    indexButton20.style.fontWeight = "normal";
+    indexButton21.style.fontWeight = "normal";
+    indexButton22.style.fontWeight = "normal";
+    // indexButton23.style.fontWeight = "normal";
+  } else if (currentPage===39) {
     indexButton17.style.fontWeight = "bold";
-    indexButton1.style.fontWeight = "normal";
     indexButton2.style.fontWeight = "normal";
     indexButton3.style.fontWeight = "normal";
     indexButton4.style.fontWeight = "normal";
@@ -410,11 +478,15 @@ function colorButton() {
     indexButton14.style.fontWeight = "normal";
     indexButton15.style.fontWeight = "normal";
     indexButton16.style.fontWeight = "normal";
+    indexButton1.style.fontWeight = "normal";
     indexButton18.style.fontWeight = "normal";
     indexButton19.style.fontWeight = "normal";
-  } else if (currentPage >= 50 && currentPage <= 54) {
+    indexButton20.style.fontWeight = "normal";
+    indexButton21.style.fontWeight = "normal";
+    indexButton22.style.fontWeight = "normal";
+    // indexButton23.style.fontWeight = "normal";
+  } else if (currentPage===40) {
     indexButton18.style.fontWeight = "bold";
-    indexButton1.style.fontWeight = "normal";
     indexButton2.style.fontWeight = "normal";
     indexButton3.style.fontWeight = "normal";
     indexButton4.style.fontWeight = "normal";
@@ -431,10 +503,14 @@ function colorButton() {
     indexButton15.style.fontWeight = "normal";
     indexButton16.style.fontWeight = "normal";
     indexButton17.style.fontWeight = "normal";
-    indexButton19.style.fontWeight = "normal";
-  } else if (currentPage === 55) {
-    indexButton19.style.fontWeight = "bold";
     indexButton1.style.fontWeight = "normal";
+    indexButton19.style.fontWeight = "normal";
+    indexButton20.style.fontWeight = "normal";
+    indexButton21.style.fontWeight = "normal";
+    indexButton22.style.fontWeight = "normal";
+    // indexButton23.style.fontWeight = "normal";
+  } else if (currentPage >=41 && currentPage <=47) {
+    indexButton19.style.fontWeight = "bold";
     indexButton2.style.fontWeight = "normal";
     indexButton3.style.fontWeight = "normal";
     indexButton4.style.fontWeight = "normal";
@@ -452,7 +528,109 @@ function colorButton() {
     indexButton16.style.fontWeight = "normal";
     indexButton17.style.fontWeight = "normal";
     indexButton18.style.fontWeight = "normal";
+    indexButton1.style.fontWeight = "normal";
+    indexButton20.style.fontWeight = "normal";
+    indexButton21.style.fontWeight = "normal";
+    indexButton22.style.fontWeight = "normal";
+    // indexButton23.style.fontWeight = "normal";
+  } else if (currentPage >= 48 && currentPage <= 49) {
+    indexButton20.style.fontWeight = "bold";
+    indexButton2.style.fontWeight = "normal";
+    indexButton3.style.fontWeight = "normal";
+    indexButton4.style.fontWeight = "normal";
+    indexButton5.style.fontWeight = "normal";
+    indexButton6.style.fontWeight = "normal";
+    indexButton7.style.fontWeight = "normal";
+    indexButton8.style.fontWeight = "normal";
+    indexButton9.style.fontWeight = "normal";
+    indexButton10.style.fontWeight = "normal";
+    indexButton11.style.fontWeight = "normal";
+    indexButton12.style.fontWeight = "normal";
+    indexButton13.style.fontWeight = "normal";
+    indexButton14.style.fontWeight = "normal";
+    indexButton15.style.fontWeight = "normal";
+    indexButton16.style.fontWeight = "normal";
+    indexButton17.style.fontWeight = "normal";
+    indexButton18.style.fontWeight = "normal";
+    indexButton19.style.fontWeight = "normal";
+    indexButton1.style.fontWeight = "normal";
+    indexButton21.style.fontWeight = "normal";
+    indexButton22.style.fontWeight = "normal";
+    // indexButton23.style.fontWeight = "normal";
+  } else if (currentPage >= 50 && currentPage <= 54) {
+    indexButton21.style.fontWeight = "bold";
+    indexButton2.style.fontWeight = "normal";
+    indexButton3.style.fontWeight = "normal";
+    indexButton4.style.fontWeight = "normal";
+    indexButton5.style.fontWeight = "normal";
+    indexButton6.style.fontWeight = "normal";
+    indexButton7.style.fontWeight = "normal";
+    indexButton8.style.fontWeight = "normal";
+    indexButton9.style.fontWeight = "normal";
+    indexButton10.style.fontWeight = "normal";
+    indexButton11.style.fontWeight = "normal";
+    indexButton12.style.fontWeight = "normal";
+    indexButton13.style.fontWeight = "normal";
+    indexButton14.style.fontWeight = "normal";
+    indexButton15.style.fontWeight = "normal";
+    indexButton16.style.fontWeight = "normal";
+    indexButton17.style.fontWeight = "normal";
+    indexButton18.style.fontWeight = "normal";
+    indexButton19.style.fontWeight = "normal";
+    indexButton20.style.fontWeight = "normal";
+    indexButton1.style.fontWeight = "normal";
+    indexButton22.style.fontWeight = "normal";
+    // indexButton23.style.fontWeight = "normal";
+  } else if (currentPage === 55) {
+    indexButton22.style.fontWeight = "bold";
+    indexButton2.style.fontWeight = "normal";
+    indexButton3.style.fontWeight = "normal";
+    indexButton4.style.fontWeight = "normal";
+    indexButton5.style.fontWeight = "normal";
+    indexButton6.style.fontWeight = "normal";
+    indexButton7.style.fontWeight = "normal";
+    indexButton8.style.fontWeight = "normal";
+    indexButton9.style.fontWeight = "normal";
+    indexButton10.style.fontWeight = "normal";
+    indexButton11.style.fontWeight = "normal";
+    indexButton12.style.fontWeight = "normal";
+    indexButton13.style.fontWeight = "normal";
+    indexButton14.style.fontWeight = "normal";
+    indexButton15.style.fontWeight = "normal";
+    indexButton16.style.fontWeight = "normal";
+    indexButton17.style.fontWeight = "normal";
+    indexButton18.style.fontWeight = "normal";
+    indexButton19.style.fontWeight = "normal";
+    indexButton20.style.fontWeight = "normal";
+    indexButton21.style.fontWeight = "normal";
+    indexButton1.style.fontWeight = "normal";
+    // indexButton23.style.fontWeight = "normal";
   }
+  // } else if (currentPage === 49) {
+  //   indexButton23.style.fontWeight = "bold";
+  //   indexButton2.style.fontWeight = "normal";
+  //   indexButton3.style.fontWeight = "normal";
+  //   indexButton4.style.fontWeight = "normal";
+  //   indexButton5.style.fontWeight = "normal";
+  //   indexButton6.style.fontWeight = "normal";
+  //   indexButton7.style.fontWeight = "normal";
+  //   indexButton8.style.fontWeight = "normal";
+  //   indexButton9.style.fontWeight = "normal";
+  //   indexButton10.style.fontWeight = "normal";
+  //   indexButton11.style.fontWeight = "normal";
+  //   indexButton12.style.fontWeight = "normal";
+  //   indexButton13.style.fontWeight = "normal";
+  //   indexButton14.style.fontWeight = "normal";
+  //   indexButton15.style.fontWeight = "normal";
+  //   indexButton16.style.fontWeight = "normal";
+  //   indexButton17.style.fontWeight = "normal";
+  //   indexButton18.style.fontWeight = "normal";
+  //   indexButton19.style.fontWeight = "normal";
+  //   indexButton20.style.fontWeight = "normal";
+  //   indexButton21.style.fontWeight = "normal";
+  //   indexButton22.style.fontWeight = "normal";
+  //   indexButton1.style.fontWeight = "normal";
+  // }
 }
 //Rastrear el click en en DOM dinamico
 const handleDomCLick = (event) => {
@@ -468,7 +646,7 @@ const handleDomCLick = (event) => {
   } else if (classIdentifier === "para") {
     let targetIdButton = "buttonParag" + currentParagNumber;
     const pointedButton = document.getElementById(targetIdButton);
-    pointedButton.style.backgroundColor = "#1d3e8b";
+    pointedButton.style.backgroundColor = "#854d92";
   }
 };
 
@@ -558,6 +736,10 @@ function createStructure(
     content = NLayOutGenerator(titles, text, page, popUp);
   } else if (currentLayout === "Wlayout") {
     content = WLayOutGenerator(titles, text, page, popUp);
+  } else if (currentLayout === "Olayout") {
+    content = OLayOutGenerator(titles, images, page);
+  } else if (currentLayout === "Playout") {
+    content = PLayOutGenerator(titles, text, page, images, popUp);
   }
   return content;
 }
@@ -589,81 +771,85 @@ function CLayOutGenerator(titles, text, page) {
   <div id="Clayout-container">
     <h1 class="titles" id="Ctitle">${titles[page]}</h1>
     <div id="Cindex-buttons">
-      <div class="button-index-container">
-        <button class="jump-buttons" onclick="setPage(3)">Ir</button> 
-        <p class="index-text">Presentaci&oacuten</p>
+      <div id="column1">
+        <div class="button-index-container">
+          <button class="index-big-buttons" onclick="setPage(3)">&#9674 Presentaci&oacuten</button> 
+        </div>
+        <div class="button-index-container">
+          <button class="index-big-buttons" onclick="setPage(4)">&#9674 Datos generales del cuaderno</button> 
+        </div>
+        <hr/>
+        <div class="button-index-container">
+          <button class="index-big-buttons" onclick="setPage(5)">TEMA 1: DE LA JUSTICIA RESTAURATIVA A LAS PRÁCTICAS</button> 
+        </div>
+        <div class="button-index-container">
+          <button class="index-big-buttons" onclick="setPage(6)">&#9674 Actividad de inicio 1  </button>
+        </div>
+        <div class="button-index-container">
+          <button class="index-big-buttons" onclick="setPage(8)">&#9674 Aspectos fundamentales de la Justicia Restaurativa en la unidad educativa</button>
+        </div>
+        <div class="button-index-container">
+          <button class="index-big-buttons" onclick="setPage(13)">&#9674 Tipos de la violencia en el sistema educativo</button> 
+        </div>
+        <div class="button-index-container">
+          <button class="index-big-buttons" onclick="setPage(17)">&#9674 Consecuencias emocionales por agresión</button> 
+        </div>
+        <div class="button-index-container">
+          <button class="index-big-buttons" onclick="setPage(21)">&#9674 Actividad Sugerida 1</button>
+        </div>
+       
+        
       </div>
-      <div class="button-index-container">
-        <button class="jump-buttons" onclick="setPage(4)">Ir</button>
-        <p class="index-text">DATOS GENERALES DEL CUADERNO</p> 
+      <div id="column2">
+       <hr/>
+        <div class="button-index-container">
+          <button class="index-big-buttons" onclick="setPage(22)">TEMA 2 COMUNIDAD RESTAURATIVA: TRABAJO CONJUNTO</button>
+        </div>
+        <div class="button-index-container">
+          <button class="index-big-buttons" onclick="setPage(23)">&#9674 Actividad de inicio 2</button>
+        </div>
+        <div class="button-index-container">
+          <button class="index-big-buttons" onclick="setPage(25)">&#9674 Las bases de una comunidad educativa restaurativa</button>
+        </div>
+         <div class="button-index-container">
+          <button class="index-big-buttons" onclick="setPage(26)">&#9674 Maestras y maestros como facilitadores de las prácticas restaurativas</button>
+        </div>
+        <div class="button-index-container">
+          <button class="index-big-buttons" onclick="setPage(30)">&#9674  Consejo Educativo en la prevención de conflictos.</button>
+        </div>
+        <div class="button-index-container">
+          <button class="index-big-buttons" onclick="setPage(35)">&#9674 Actividad sugerida 2</button> 
+        </div>
+        <hr/>
+        <div class="button-index-container">
+          <button class="index-big-buttons" onclick="setPage(36)">TEMA 3: CREACIÓN DE UNA ZONA EDUCATIVA RESTAURATIVA</button> 
+        </div>
+        <div class="button-index-container">
+          <button class="index-big-buttons" onclick="setPage(37)">&#9674 Actividad de inicio 3 </button>
+        </div>
+        
+        
       </div>
-      <div class="button-index-container">
-        <button class="jump-buttons" onclick="setPage(5)">Ir</button>
-        <p class="index-text">TEMA 1: DE LA JUSTICIA RESTAURATICA A LAS PRACTICAS</p> 
-      </div>
-      <div class="button-index-container">
-        <button class="jump-buttons" onclick="setPage(8)">Ir</button>
-        <p class="index-text">Aspectos fundamentales de la Justicia Restaurativa en la unidad educativa</p>
-      </div>
-      <div class="button-index-container">
-        <button class="jump-buttons" onclick="setPage(13)">Ir</button>
-        <p class="index-text">Tipos de la violencia en el sistema educativo</p>
-      </div>
-      <div class="button-index-container">
-        <button class="jump-buttons" onclick="setPage(17)">Ir</button>
-        <p class="index-text">Consecuencias emocionales por agresión</p>
-      </div>
-      <div class="button-index-container">
-        <button class="jump-buttons" onclick="setPage(18)">Ir</button>
-        <p class="index-text">El aporte de la Justicia restaurativa a la práctica restaurativa escolar </p>   
-      </div>
-      <div class="button-index-container">
-        <button class="jump-buttons" onclick="setPage(22)">Ir</button>
-        <p class="index-text">TEMA 2: COMUNIDAD RESTAURATIVA: TRABAJO CONJUNTO</p>   
-      </div>
-      <div class="button-index-container">
-        <button class="jump-buttons" onclick="setPage(25)">Ir</button>
-        <p class="index-text">Las bases de una comunidad educativa restaurativa</p>     
-      </div>
-      <div class="button-index-container">
-        <button class="jump-buttons" onclick="setPage(26)">Ir</button>
-        <p class="index-text">Maestras y maestros como facilitadores de las prácticas restaurativas</p>       
-      </div>
-      <div class="button-index-container">
-        <button class="jump-buttons" onclick="setPage(30)">Ir</button>
-        <p class="index-text">Consejo Educativo en la prevención de conflictos</p>       
-      </div>
-      <div class="button-index-container">
-        <button class="jump-buttons" onclick="setPage(31)">Ir</button>
-        <p class="index-text">Estudiantes como protagonistas de las prácticas restaurativas</p>       
-      </div>
-      <div class="button-index-container">
-        <button class="jump-buttons" onclick="setPage(36)">Ir</button>
-        <p class="index-text">TEMA 3: CREACIÓN DE UNA ZONA EDUCATIVA RESTAURATIVA</p>         
-      </div>
-      <div class="button-index-container">
-        <button class="jump-buttons" onclick="setPage(39)">Ir</button>
-        <p class="index-text">Concepto y características de una zona restaurativa</p>         
-      </div>
-      <div class="button-index-container">
-        <button class="jump-buttons" onclick="setPage(40)">Ir</button>
-        <p class="index-text">El rol de los integrantes de la comunidad educativa en una zona restaurativa</p>         
-      </div>
-      <div class="button-index-container">
-        <button class="jump-buttons" onclick="setPage(41)">Ir</button>
-        <p class="index-text">Actividades con enfoque restaurativo</p>         
-      </div>
-      <div class="button-index-container">
-        <button class="jump-buttons" onclick="setPage(47)">Ir</button>
-        <p class="index-text">Beneficios de una zona educativa restaurativa</p>         
-      </div>
-      <div class="button-index-container">
-        <button class="jump-buttons" onclick="setPage(50)">Ir</button>
-        <p class="index-text">Glosario</p>         
-      </div>
-      <div class="button-index-container">
-        <button class="jump-buttons" onclick="setPage(55)">Ir</button>
-        <p class="index-text">Bibliografia</p>          
+       <div id="column3">
+       <div class="button-index-container">
+          <button class="index-big-buttons" onclick="setPage(39)">&#9674 Concepto y características de una zona restaurativa</button>
+        </div>
+         <div class="button-index-container">
+          <button class="index-big-buttons" onclick="setPage(40)">&#9674 El rol de los integrantes de la comunidad educativa en una zona restaurativa</button> 
+        </div>
+        <div class="button-index-container">
+          <button class="index-big-buttons" onclick="setPage(41)">&#9674 Actividades con enfoque restaurativo</button> 
+        </div>
+        <div class="button-index-container">
+          <button class="index-big-buttons" onclick="setPage(48)">&#9674 Actividad sugerida 3</button> 
+        </div>
+        <hr/>
+        <div class="button-index-container">
+          <button class="index-big-buttons" onclick="setPage(50)">&#9674 Glosario</button>
+        </div>
+        <div class="button-index-container">
+          <button class="index-big-buttons" onclick="setPage(55)">&#9674 Bibliografía</button>
+        </div>
       </div>
     </div>
   </div>`;
@@ -700,6 +886,7 @@ function ELayOutGenerator(images, page, buttonName, buttonsPageNumber) {
         <div class="button-index-container"><button class="jump-buttons" onclick="setPage(${buttonsPageNumber[page][1]})">${buttonName[page][1]}</button></div>
         <div class="button-index-container"><button class="jump-buttons" onclick="setPage(${buttonsPageNumber[page][2]})">${buttonName[page][2]}</button></div>
         <div class="button-index-container"><button class="jump-buttons"onclick="setPage(${buttonsPageNumber[page][3]})">${buttonName[page][3]}</</button></div>
+        <div class="button-index-container"><button class="jump-buttons"onclick="setPage(${buttonsPageNumber[page][4]})">${buttonName[page][4]}</</button></div>
       </div>
     </div>
   </div>`;
@@ -953,6 +1140,31 @@ function WLayOutGenerator(titles, text, page, popUp) {
     </div>`;
 }
 
+// Plantilla O
+function OLayOutGenerator(titles, images, page) {
+  return ` 
+  <div id="Olayout-container">
+    <h1 class="titles" id="Otitle">${titles[page]}</h1>
+    <div id="Oimage-container">
+      <img id="Oimage" src="images/${images[page]}">
+    </div>
+  </div>`;
+}
+
+// Plantilla P
+function PLayOutGenerator(titles, text, page, images, popUp) {
+  return `<h1 class="titles">${titles[page]}</h1>
+  <div id="Playout-container">
+  <div id="Pbutton">
+    <div id="Pmodals-container">
+    ${modalGenerator(popUp, page, 0)}
+    </div>
+  </div> 
+  <div id="Pimage-container">
+  <img id="Pimage" src="images/${images[page]}">
+  </div>
+  </div>`;
+}
 //Generar los pop-ups
 function modalGenerator(popUp, page, selector) {
   let initial = 0;
@@ -1031,6 +1243,7 @@ function closeModal(modal) {
 function masterRender() {
   renderPage();
   const pointedButton = document.getElementById("buttonParag1");
+  // console.log(currentParagNumber);
   if (pointedButton && currentParagNumber === 1) {
     pointedButton.style.backgroundColor = "#854d92";
   }

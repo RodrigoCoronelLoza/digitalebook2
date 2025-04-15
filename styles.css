@@ -1,7 +1,22 @@
 :root {
-  --primary: #854d92;
+  --primary: #030d7b;
+  --auxiliar: #7000e0;
   --secondary: #c06190;
-  --backgroud: #cacce5;
+  --backgroud: #c0f9ff;
+  --hoverbuttons1: #7000e0;
+  --hoverbuttons0: #ca05fa;
+  --hoverbuttons2:#e5cae2;
+  --auxiliar2: #7e64dc;
+  --auxiliar1: #fdffb1;
+  
+
+  --primary2: #854d92;
+  --secondary2: #c06190;
+  --backgroud2: #cacce5;
+  --secondary3: #2f67e1;
+  --auxiliar3: #7000e0;
+  --hoverbuttons12: #5da7e1;
+  
 }
 html {
   margin: 0;
@@ -12,7 +27,12 @@ body {
   font-family: Roboto;
   justify-content: center;
   align-items: center;
-  background-color: var(--backgroud);
+  /* background-color: var(--backgroud); */
+  background-image: linear-gradient(
+    to right,
+    var(--secondary),
+    var(--hoverbuttons1)
+  );
   margin: 0;
   height: 100%;
   padding: 0;
@@ -22,13 +42,14 @@ body {
   background: white;
   padding: 2%;
   padding-top: 0;
+  padding-left: 0;
   padding-right: 0;
   border-radius: 10px;
-  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  /* box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.1); */
   text-align: center;
   margin-top: 2%;
-  margin-right: 0.2%;
-  margin-left: 2%;
+  margin-right: 2%;
+  margin-left: 0.8%;
   height: 90%;
 }
 
@@ -37,12 +58,12 @@ body {
 }
 #book-title {
   color: white;
-  background-color: var(--primary);
-  width: 40%;
+  background-image: linear-gradient(to right, var(--auxiliar), var(--primary));
+  width: 50%;
   border-radius: 20px;
   margin-left: auto;
-  margin-right: 0;
-  padding-right: 2em;
+  margin-right: auto;
+  /* padding-right: 2em; */
   padding-top: 0.5em;
   padding-bottom: 0.3em;
   position: relative;
@@ -52,7 +73,7 @@ body {
 
 #page-container {
   width: 100%;
-  height: 90%;
+  height: 88%;
   display: flex;
 }
 
@@ -87,12 +108,24 @@ body {
 /* Botones de navegacion */
 .nav-buttons {
   color: white;
-  background-color: var(--secondary);
+  /* background-color: var(--secondary); */
+  background-image: linear-gradient(to right, var(--auxiliar), var(--primary));
+
   font-size: 1.2vw;
   border-radius: 100px;
   width: 6em;
   height: 80%;
   border: none;
+  box-shadow: 5px 7px 10px var(--primary);
+}
+
+.nav-buttons:hover {
+  /* background-color: var(--hoverbuttons1); */
+  background-image: linear-gradient(
+    to right,
+    var(--auxiliar),
+    var(--primary2)
+  );
 }
 
 #comenzar-button {
@@ -106,13 +139,23 @@ body {
 
 .jump-buttons {
   color: white;
-  background-color: var(--primary);
+  /* background-color: var(--primary); */
+  background-image: linear-gradient(to right, var(--auxiliar), var(--primary));
   font-size: 1.2vw;
   border-radius: 100px;
   border: none;
-  width: 5em;
-  height: 80%;
-  box-shadow: 1px 1px 10px #00000071;
+  width: 7.5em;
+  height: 70%;
+  /* box-shadow: 1px 1px 10px #00000071; */
+  box-shadow: 5px 7px 10px var(--auxiliar1);
+}
+
+.jump-buttons:hover {
+  background-image: linear-gradient(
+    to right,
+    var(--auxiliar2),
+    var(--hoverbuttons2)
+  );
 }
 
 #home-button {
@@ -120,7 +163,7 @@ body {
 }
 /* Header del menu */
 #menu-header {
-  margin-right: 2%;
+  margin-left: 2%;
   display: flex;
   height: 10%;
 }
@@ -131,7 +174,6 @@ body {
 #menu-image-container {
   text-align: right;
   width: 30%;
-  height: 70%;
   margin: auto;
 }
 
@@ -142,14 +184,13 @@ body {
 /* Botones inferiores */
 #adv-buttons {
   text-align: right;
-  margin-right: 2%;
   height: 7%;
 }
 /* Titulos y texto en general */
 .titles {
   text-align: left;
-  font-size: 1.8vw;
-  color: var(--primary);
+  font-size: 1.6vw;
+  color: var(--auxiliar);
 }
 
 .text {
@@ -157,12 +198,14 @@ body {
 }
 /* Plantilla B */
 .Blayout {
-  padding-left: 1%;
-  padding-right: 1%;
+  padding-left: 2%;
+  padding-right: 2%;
   line-height: 1.1em;
   height: 100%;
-  font-size: 1.1vmax;
+  font-size: 1.2vmax;
   width: 85%;
+  background-image: url("images/CHA99.png");
+  background-size: 100% 100%;
 }
 
 .Blayout #Blayout-container {
@@ -191,49 +234,99 @@ body {
 
 .Clayout {
   text-align: left;
-  padding: 2%;
-  height: 80%;
-  font-size: 1.1vw;
+  /* padding: 2%; */
+  padding-left: 2%;
+  padding-right: 2%;
+  height: 100%;
+  font-size: 1.2vmax;
   width: 95%;
+  background-image: url("images/CHA_10.jpeg");
+  background-size: 100% 100%;
 }
 
 .Clayout #Clayout-container {
   height: 100%;
+  /* border: 1px solid red; */
 }
 
 .Clayout #Clayout-container #Ctitle {
   margin: 0;
   height: 10%;
+  /* border: 1px solid green; */
 }
+
+hr { 
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin: 1em 0;
+  padding: 0; 
+}
+
 .Clayout #Cindex-buttons {
-  column-count: 2;
-  column-gap: 10px;
+  /* column-count: 2; */
+  /* column-gap: 10px; */
   height: 90%;
-  position: relative;
+  /* position: relative; */
+  /* border: 1px solid violet; */
+  display: flex;
+  /* background-color: white; */
+}
+
+.Clayout #Cindex-buttons #column1 {
+  /* border: 1px solid red; */
+  width: 33%;
+}
+
+.Clayout #Cindex-buttons #column2 {
+  /* border: 1px solid green; */
+  width: 33%;
+}
+.Clayout #Cindex-buttons #column3 {
+  /* border: 1px solid green; */
+  width: 34%;
 }
 
 .Clayout .button-index-container {
+  background-color: transparent;
   display: flex;
-  height: 5%;
-  padding: 1.5%;
+  height: 10%;
+  /* padding: 1.5%; */
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+  font-size: 1.2vw;
+  /* border: 1px solid violet; */
 }
 
-.Clayout .button-index-container .jump-buttons {
-  height: 150%;
+.Clayout .button-index-container .index-big-buttons {
+  background-color: transparent;
+  font-size: 1.4vw;
+  margin: 0;
+  border: none;
+  height: 100%;
+  width: 100%;
+  text-align: left;
+  cursor: pointer;
 }
-
-.Clayout .button-index-container .index-text {
-  padding-left: 3em;
+.Clayout .button-index-container .index-big-buttons:hover {
+  background-image: linear-gradient(to right, var(--secondary), var(--primary));
+  color: white;
+  /* font-weight: bolder; */
+  /* color: #1d3e8b; */
 }
 
 /* Plantilla D */
 
 .Dlayout {
-  padding-left: 1%;
-  padding-right: 1%;
+  padding-left: 2%;
+  padding-right: 2%;
   height: 100%;
   font-size: 1.2vmax;
   width: 85%;
+  background-image: url("images/CHA_10.jpeg");
+  background-size: 100% 100%;
 }
 .Dlayout h1 {
   margin: 0;
@@ -265,20 +358,42 @@ body {
 }
 
 .Dlayout #Dbutton .open-button0 {
-  background-color: var(--primary);
+  /* background-color: var(--primary); */
+  background-image: linear-gradient(to right, var(--auxiliar2), var(--primary));
   width: 100%;
   height: 100%;
   border-radius: 50%;
   border: none;
   color: white;
+  box-shadow: 8px 8px 5px var(--auxiliar1);
+  font-size: 1.2vw;
+}
+.Dlayout #Dbutton .open-button0:hover {
+  background-image: linear-gradient(
+    to right,
+    var(--secondary),
+    var(--hoverbuttons1)
+  );
 }
 .Dlayout #Dlayout-container #Dbutton .open-button1 {
-  background-color: var(--primary);
+  /* background-color: var(--primary); */
+  background-image: linear-gradient(to right, var(--auxiliar2), var(--primary));
   width: 100%;
-  height: 100%;
+  margin-top: 20%;
+  height: 80%;
   border: none;
   border-radius: 20px;
   color: white;
+  box-shadow: 8px 8px 5px var(--auxiliar1);
+  font-size: 1.1vmax;
+}
+
+.Dlayout #Dlayout-container #Dbutton .open-button1:hover {
+  background-image: linear-gradient(
+    to right,
+    var(--secondary),
+    var(--hoverbuttons1)
+  );
 }
 
 .Dlayout #Dtext {
@@ -288,8 +403,8 @@ body {
 }
 
 .Dlayout #Dimage-container {
-  background-color: var(--primary);
-  width: 40%;
+  /* background-color: var(--primary); */
+  width: 45%;
   height: 90%;
 }
 
@@ -301,11 +416,13 @@ body {
 /* Plantilla E */
 
 .Elayout {
-  padding-left: 1%;
-  padding-right: 1%;
+  padding-left: 2%;
+  padding-right: 2%;
   height: 100%;
   font-size: 1.3vw;
   width: 85%;
+  background-image: url("images/CHA_14.jpeg");
+  background-size: 100% 100%;
 }
 
 .Elayout #Elayout-container {
@@ -351,9 +468,9 @@ body {
   #index-button-container
   #index-buttons
   .jump-buttons {
-  width: 90%;
-  height: 90%;
-  font-size: 1.2em;
+  width: 85%;
+  height: 70%;
+  font-size: 0.9em;
 }
 
 /* Plantilla F */
@@ -364,6 +481,8 @@ body {
   height: 100%;
   font-size: 1.2vw;
   width: 85%;
+  background-image: url("images/CHA_8.jpeg");
+  background-size: 100% 100%;
 }
 
 .Flayout #Flayout-container {
@@ -373,12 +492,12 @@ body {
 
 .Flayout #Flayout-container #Fcolumn1 {
   width: 60%;
-  padding: 30px;
+  padding: 20px;
 }
 
 .Flayout #Flayout-container #Fcolumn1 #act-inicio-img {
-  height: 10%;
-  width: 80%;
+  height: 15%;
+  width: 70%;
 }
 
 .Flayout #Flayout-container #Fcolumn2 {
@@ -387,18 +506,18 @@ body {
 
 .Flayout #Flayout-container #Fcolumn2 #Flayout-img {
   width: 80%;
-  height: 70%;
+  height: 75%;
 }
 
 .Flayout #Flayout-container #Fcolumn2 #Fdownload-button {
-  margin-top: 2em;
+  margin-top: 1em;
   width: 80%;
   height: 15%;
   font-size: 1.2vw;
 }
 
 .Flayout #Flayout-container #Fcolumn2 #Flink-container {
-  margin-top: 2em;
+  margin-top: 0.9em;
   width: 80%;
   height: 15%;
   font-size: 1.2em;
@@ -406,8 +525,18 @@ body {
   margin-left: auto;
   margin-right: auto;
   position: relative;
-  background-color: var(--secondary);
+  /* background-color: var(--secondary); */
+  background-image: linear-gradient(to right, var(--secondary), var(--primary));
   border-radius: 15px;
+  box-shadow: 5px 5px 5px var(--backgroud);
+}
+.Flayout #Flayout-container #Fcolumn2 #Flink-container:hover {
+  /* background-color: var(--primary); */
+  background-image: linear-gradient(
+    to right,
+    var(--auxiliar),
+    var(--hoverbuttons1)
+  );
 }
 
 .Flayout #Flayout-container #Fcolumn2 #Flink-container #Flink {
@@ -425,11 +554,13 @@ body {
 /* Plantilla G */
 
 .Glayout {
-  padding-left: 1%;
-  padding-right: 1%;
+  padding-left: 2%;
+  padding-right: 2%;
   height: 100%;
   font-size: 1.2vw;
   width: 85%;
+  background-image: url("images/CHA_10.jpeg");
+  background-size: 100% 100%;
 }
 
 .Glayout #Glayout-container {
@@ -438,12 +569,12 @@ body {
 
 .Glayout #Glayout-container #Grow1 {
   width: 100%;
-  height: 50%;
+  height: 40%;
 }
 
 .Glayout #Glayout-container #Grow1 #Gtitle1 {
   margin: 0;
-  height: 20%;
+  height: 10%;
 }
 .Glayout #Glayout-container #Grow2 {
   width: 100%;
@@ -461,7 +592,7 @@ body {
 
 .Glayout #Grow3 #Gmodal-container {
   width: 40%;
-  height: 90%;
+  height: 100%;
 }
 
 .Glayout #Grow3 #Gnext-modal {
@@ -473,22 +604,37 @@ body {
 }
 
 .Glayout #Grow3 #Gmodal-container #modal-container0 .open-button0 {
-  background-color: var(--primary);
+  /* background-color: var(--primary); */
+  background-image: linear-gradient(to right, var(--primary), var(--auxiliar));
   color: white;
   width: 60%;
   height: 80%;
-  border-radius: 10px;
-  font-size: 1.2em;
+  border-radius: 50%;
+  font-size: 1.1vw;
+  box-shadow: 8px 8px 10px var(--backgroud);
+  border: none;
+  padding-left: 2%;
+  padding-right: 2%;
+}
+.Glayout #Grow3 #Gmodal-container #modal-container0 .open-button0:hover {
+  /* background-color: var(--hoverbuttons1); */
+  background-image: linear-gradient(
+    to right,
+    var(--auxiliar2),
+    var(--hoverbuttons0)
+  );
 }
 
 /* Plantilla H */
 
 .Hlayout {
-  padding-left: 1%;
-  padding-right: 1%;
+  padding-left: 2%;
+  padding-right: 2%;
   height: 95%;
-  font-size: 1.1vw;
+  font-size: 1.2vw;
   width: 85%;
+  background-image: url("images/CHA_10.jpeg");
+  background-size: 100% 100%;
 }
 
 .Hlayout #Hlayout-container {
@@ -497,17 +643,18 @@ body {
 }
 
 .Hlayout #Hlayout-container #Hrow1 {
-  height: 50%;
+  height: 48%;
   position: relative;
+  margin-bottom: 2%;
 }
 
 .Hlayout #Hlayout-container #Hrow1 #Htitle1 {
-  height: 15%;
+  height: 10%;
   margin: 0;
 }
 
 .Hlayout #Hlayout-container #Hrow1 #Htext1 {
-  height: 35%;
+  height: 50%;
 }
 
 .Hlayout #Hlayout-container #Hrow1 #Hmodals-container1 {
@@ -515,18 +662,18 @@ body {
   padding-right: auto;
   display: flex;
   justify-content: center;
-  height: 45%;
+  height: 50%;
   position: absolute;
   bottom: 4%;
   width: 100%;
 }
 .Hlayout #Hlayout-container #Hrow2 {
-  height: 50%;
+  height: 45%;
   position: relative;
 }
 
 .Hlayout #Hlayout-container #Hrow2 #Htitle2 {
-  height: 15%;
+  height: 10%;
   margin: 0;
 }
 
@@ -539,7 +686,7 @@ body {
   padding-right: auto;
   display: flex;
   justify-content: center;
-  height: 45%;
+  height: 50%;
   position: absolute;
   bottom: 0%;
   width: 100%;
@@ -567,17 +714,106 @@ body {
   height: 100%;
 }
 
-.Hlayout #Hlayout-container #Hrow1 #Hmodals-container1 .open-button0,
-.open-button1,
-.open-button2,
-.open-button3,
-.open-button4 {
-  background-color: var(--primary);
+.Hlayout #Hlayout-container #Hrow1 #Hmodals-container1 .open-button0 {
+  /* background-color: var(--primary); */
+  background-image: linear-gradient(to right, var(--primary), var(--auxiliar));
   color: white;
-  border-radius: 10px;
+  border-radius: 50%;
   height: 100%;
   width: 100%;
-  font-size: 1.2em;
+  font-size: 1vw;
+  box-shadow: 8px 8px 5px var(--backgroud);
+  border: none;
+}
+
+.Hlayout #Hlayout-container #Hrow1 #Hmodals-container1 .open-button1 {
+  /* background-color: var(--primary); */
+  background-image: linear-gradient(to right, var(--primary), var(--auxiliar));
+  color: white;
+  border-radius: 50%;
+  height: 100%;
+  width: 100%;
+  font-size: 1vw;
+  box-shadow: 8px 8px 5px var(--backgroud);
+  border: none;
+}
+.Hlayout #Hlayout-container #Hrow1 #Hmodals-container1 .open-button2 {
+  /* background-color: var(--primary); */
+  background-image: linear-gradient(to right, var(--primary), var(--auxiliar));
+  color: white;
+  border-radius: 50%;
+  height: 100%;
+  width: 100%;
+  font-size: 1vw;
+  box-shadow: 8px 8px 5px var(--backgroud);
+  border: none;
+}
+.Hlayout #Hlayout-container #Hrow1 #Hmodals-container1 .open-button3 {
+  /* background-color: var(--primary); */
+  background-image: linear-gradient(to right, var(--primary), var(--auxiliar));
+  color: white;
+  border-radius: 50%;
+  height: 100%;
+  width: 100%;
+  font-size: 1vw;
+  box-shadow: 8px 8px 5px var(--backgroud);
+  border: none;
+}
+.Hlayout #Hlayout-container #Hrow1 #Hmodals-container1 .open-button4 {
+  /* background-color: var(--primary); */
+  background-image: linear-gradient(to right, var(--primary), var(--auxiliar));
+  color: white;
+  border-radius: 50%;
+  height: 100%;
+  width: 100%;
+  font-size: 1vw;
+  box-shadow: 8px 8px 5px var(--backgroud);
+  border: none;
+}
+
+.Hlayout #Hlayout-container #Hrow1 #Hmodals-container1 .open-button0:hover {
+  /* background-color: var(--hoverbuttons1); */
+  background-image: linear-gradient(
+    to right,
+    var(--auxiliar2),
+    var(--hoverbuttons1)
+  );
+}
+
+.Hlayout #Hlayout-container #Hrow1 #Hmodals-container1 .open-button1:hover {
+  /* background-color: var(--hoverbuttons1); */
+  background-image: linear-gradient(
+    to right,
+    var(--auxiliar2),
+    var(--hoverbuttons1)
+  );
+}
+
+.Hlayout #Hlayout-container #Hrow1 #Hmodals-container1 .open-button2:hover {
+  /* background-color: var(--hoverbuttons1); */
+  background-image: linear-gradient(
+    to right,
+    var(--auxiliar2),
+    var(--hoverbuttons1)
+  );
+}
+
+.Hlayout #Hlayout-container #Hrow1 #Hmodals-container1 .open-button3:hover {
+  /* background-color: var(--hoverbuttons1); */
+  background-image: linear-gradient(
+    to right,
+    var(--auxiliar2),
+    var(--hoverbuttons1)
+  );
+}
+
+.Hlayout #Hlayout-container #Hrow1 #Hmodals-container1 .open-button4:hover {
+  /* background-color: var(--hoverbuttons1); */
+  background-image: linear-gradient(
+    to right,
+    var(--auxiliar2),
+    var(--hoverbuttons1)
+  );
 }
 
 .Hlayout #Hlayout-container #Hmodals-container2 .open-button5,
@@ -585,22 +821,72 @@ body {
 .open-button7,
 .open-button8,
 .open-button9 {
-  background-color: var(--primary);
+  /* background-color: var(--primary); */
+  background-image: linear-gradient(to right, var(--auxiliar), var(--primary));
   color: white;
-  border-radius: 10px;
+  border-radius: 50%;
   height: 100%;
   width: 100%;
-  font-size: 1.2em;
+  font-size: 1vw;
+  box-shadow: 10px 10px 5px var(--backgroud);
+  border: none;
+}
+
+.Hlayout #Hlayout-container #Hrow2 #Hmodals-container2 .open-button5:hover {
+  /* background-color: var(--hoverbuttons1); */
+  background-image: linear-gradient(
+    to right,
+    var(--auxiliar2),
+    var(--hoverbuttons1)
+  );
+}
+
+.Hlayout #Hlayout-container #Hrow2 #Hmodals-container2 .open-button6:hover {
+  /* background-color: var(--hoverbuttons1); */
+  background-image: linear-gradient(
+    to right,
+    var(--auxiliar2),
+    var(--hoverbuttons1)
+  );
+}
+
+.Hlayout #Hlayout-container #Hrow2 #Hmodals-container2 .open-button7:hover {
+  /* background-color: var(--hoverbuttons1); */
+  background-image: linear-gradient(
+    to right,
+    var(--auxiliar2),
+    var(--hoverbuttons1)
+  );
+}
+
+.Hlayout #Hlayout-container #Hrow2 #Hmodals-container2 .open-button8:hover {
+  /* background-color: var(--hoverbuttons1); */
+  background-image: linear-gradient(
+    to right,
+    var(--auxiliar2),
+    var(--hoverbuttons1)
+  );
+}
+
+.Hlayout #Hlayout-container #Hrow2 #Hmodals-container2 .open-button9:hover {
+  /* background-color: var(--hoverbuttons1); */
+  background-image: linear-gradient(
+    to right,
+    var(--auxiliar2),
+    var(--hoverbuttons1)
+  );
 }
 
 /* Plantilla I */
 
 .Ilayout {
-  padding-left: 1%;
-  padding-right: 1%;
+  padding-left: 2%;
+  padding-right: 2%;
   height: 100%;
   font-size: 1.2vw;
   width: 85%;
+  background-image: url("images/CHA_8.jpeg");
+  background-size: 100% 100%;
 }
 
 .Ilayout #Ilayout-container {
@@ -610,11 +896,14 @@ body {
 
 .Ilayout #Ilayout-container #Icolumn1 {
   width: 50%;
+  /* border: 1px solid red; */
 }
 
 .Ilayout #Ilayout-container #Icolumn1 #Icolumn1-image-container {
   width: 100%;
-  height: 30%;
+  height: 20%;
+  margin-top: 9%;
+  /* border: 1px solid green; */
 }
 
 .Ilayout
@@ -623,21 +912,25 @@ body {
   #Icolumn1-image-container
   #Iimage-column1 {
   width: 100%;
-  height: 90%;
+  height: 70%;
 }
 
 .Ilayout #Ilayout-container #Icolumn1 #Ititle {
-  margin: 0;
+  /* margin-top: 10%; */
+  margin-left: 3%;
+  /* margin-bottom: 10%; */
+  /* border: 1px solid violet; */
 }
 
 .Ilayout #Ilayout-container #Icolumn1 #Itext-container {
+  /* border: 1px solid orange; */
   height: 60%;
   position: relative;
 }
 
 .Ilayout #Ilayout-container #Icolumn1 #Itext-container #Itext {
-  margin-top: 0;
-  margin-bottom: 0;
+  /* margin-top: 8%; */
+  /* margin-bottom: 0; */
   margin-left: 3%;
   margin-right: 3%;
   position: absolute;
@@ -676,8 +969,18 @@ body {
   margin-left: auto;
   margin-right: auto;
   position: relative;
-  background-color: var(--primary);
+  /* background-color: var(--primary); */
+  background-image: linear-gradient(to right, var(--primary), var(--secondary));
   border-radius: 15px;
+  box-shadow: 10px 10px 5px var(--backgroud);
+}
+.Ilayout #Ilayout-container #Icolumn2 #Ilink-container:hover {
+  /* background-color: var(--secondary); */
+  background-image: linear-gradient(
+    to right,
+    var(--auxiliar),
+    var(--hoverbuttons1)
+  );
 }
 
 .Ilayout #Ilayout-container #Icolumn2 #Ilink-container #Ilink {
@@ -710,11 +1013,13 @@ body {
 /* Plantilla J */
 
 .Jlayout {
-  padding-left: 1%;
-  padding-right: 1%;
+  padding-left: 2%;
+  padding-right: 2%;
   height: 95%;
   font-size: 1.2vw;
   width: 85%;
+  background-image: url("images/CHA_8.jpeg");
+  background-size: 100% 100%;
 }
 
 .Jlayout #Jlayout-container {
@@ -726,7 +1031,7 @@ body {
   margin: 0;
 }
 .Jlayout #Jlayout-container #Jtext-container {
-  height: 10%;
+  height: 8%;
 }
 
 .Jlayout #Jlayout-container #Jcarousel-container {
@@ -735,7 +1040,7 @@ body {
 }
 .Jlayout #Jlayout-container #Jcarousel-container #Jcarousel {
   height: 100%;
-  width: 80%;
+  width: 70%;
   margin: 0;
   position: absolute;
   top: 50%;
@@ -772,13 +1077,19 @@ body {
 }
 
 .Jlayout #Jlayout-container #Jcarousel-container .SlideCarouselButton {
-  background-color: var(--primary);
+  /* background-color: var(--secondary); */
+  background-image: linear-gradient(
+    to right,
+    var(--auxiliar),
+    var(--secondary)
+  );
   width: 100%;
   height: 100%;
   border-radius: 50%;
   font-size: 2.5em;
   border: none;
   color: white;
+  /* box-shadow: 10px 10px 5px var(--backgroud); */
 }
 
 .Jlayout #Jlayout-container #Jcarousel-container .SlideCarouselButton:hover {
@@ -789,11 +1100,13 @@ body {
 /* Plantilla K */
 
 .Klayout {
-  padding-left: 1%;
-  padding-right: 1%;
+  padding-left: 2%;
+  padding-right: 2%;
   height: 100%;
   font-size: 1.2vw;
   width: 85%;
+  background-image: url("images/CHA_14.jpeg");
+  background-size: 100% 100%;
 }
 
 .Klayout #Klayout-container {
@@ -801,11 +1114,11 @@ body {
 }
 .Klayout #Klayout-container #Ktitle {
   margin: 0;
-  height: 10%;
+  height: 8%;
 }
 .Klayout #Klayout-container #Ktext-container1,
 #Ktext-container2 {
-  margin-top: 10px;
+  margin-top: 2%;
   margin: 0;
   height: 30%;
   position: relative;
@@ -815,13 +1128,15 @@ body {
 #Ktext2 {
   margin: 0;
   position: absolute;
-  top: 50%;
+  top: 30%;
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
 }
 
 .Klayout #Klayout-container #Ktext1 {
-  background-color: var(--backgroud);
+  padding-left: 2%;
+  padding-right: 2%;
+  background-color: var(--backgroud2);
 }
 .Klayout #Klayout-container #Kimage-container {
   height: 30%;
@@ -829,17 +1144,19 @@ body {
 
 .Klayout #Klayout-container #Kimage-container #Kbanner {
   height: 100%;
-  width: 100%;
+  width: 80%;
 }
 
 /* Plantilla L */
 
 .Llayout {
-  padding-left: 1%;
-  padding-right: 1%;
+  padding-left: 2%;
+  padding-right: 2%;
   height: 95%;
   font-size: 1.2vw;
   width: 85%;
+  background-image: url("images/CHA_10.jpeg");
+  background-size: 100% 100%;
 }
 
 .Llayout #Llayout-container {
@@ -854,7 +1171,7 @@ body {
 .Llayout #Llayout-container #Ltext-container {
   margin-top: 10px;
   margin: 0;
-  height: 60%;
+  height: 45%;
   position: relative;
 }
 
@@ -890,12 +1207,60 @@ body {
 .open-button2,
 .open-button3,
 .open-button4 {
-  background-color: var(--primary);
+  /* background-color: var(--primary); */
+  background-image: linear-gradient(to right, var(--secondary), var(--primary));
   color: white;
-  border-radius: 10px;
+  border-radius: 50%;
   height: 100%;
   width: 100%;
-  font-size: 1.2em;
+  font-size: 1.1vw;
+  box-shadow: 10px 10px 5px var(--auxiliar2);
+  border: none;
+}
+
+.Llayout #Llayout-container #Lmodals-container .open-button0:hover {
+  /* background-color: var(--hoverbuttons1); */
+  background-image: linear-gradient(
+    to right,
+    var(--hoverbuttons0),
+    var(--hoverbuttons1)
+  );
+}
+
+.Llayout #Llayout-container #Lmodals-container .open-button1:hover {
+  /* background-color: var(--hoverbuttons1); */
+  background-image: linear-gradient(
+    to right,
+    var(--hoverbuttons0),
+    var(--hoverbuttons1)
+  );
+}
+
+.Llayout #Llayout-container #Lmodals-container .open-button2:hover {
+  /* background-color: var(--hoverbuttons1); */
+  background-image: linear-gradient(
+    to right,
+    var(--hoverbuttons0),
+    var(--hoverbuttons1)
+  );
+}
+
+.Llayout #Llayout-container #Lmodals-container .open-button3:hover {
+  /* background-color: var(--hoverbuttons1); */
+  background-image: linear-gradient(
+    to right,
+    var(--hoverbuttons0),
+    var(--hoverbuttons1)
+  );
+}
+
+.Llayout #Llayout-container #Lmodals-container .open-button4:hover {
+  /* background-color: var(--hoverbuttons1); */
+  background-image: linear-gradient(
+    to right,
+    var(--hoverbuttons0),
+    var(--hoverbuttons1)
+  );
 }
 
 /* Plantilla M */
@@ -906,6 +1271,8 @@ body {
   height: 95%;
   width: 85%;
   font-size: 1.2vw;
+  background-image: url("images/CHA_10.jpeg");
+  background-size: 100% 100%;
 }
 
 .Mlayout #Mlayout-container {
@@ -934,9 +1301,10 @@ body {
 
 .Mlayout #Mcarousel-container {
   height: 58%;
-  background-color: var(--backgroud);
+  background-color: var(--backgroud2);
   padding-top: 1em;
   justify-content: center;
+  border-radius: 50px;
 }
 
 .Mlayout #Mcarousel-container #Mbuttons {
@@ -977,21 +1345,23 @@ body {
   background-color: var(--secondary);
   color: white;
   height: 100%;
-  border-radius: 1em;
+  border-radius: 50px;
   border: none;
-  width: 8em;
+  width: 7vw;
   margin-right: 1%;
-  font-size: 0.9vw;
+  font-size: 1vw;
 }
 
 /* Plantilla N */
 
 .Nlayout {
-  padding-left: 1%;
-  padding-right: 1%;
+  padding-left: 2%;
+  padding-right: 2%;
   height: 95%;
   font-size: 1.2vw;
   width: 85%;
+  background-image: url("images/CHA_10.jpeg");
+  background-size: 100% 100%;
 }
 
 .Nlayout #Nlayout-container {
@@ -1037,48 +1407,211 @@ body {
   width: 30%;
   margin-left: 10%;
   margin-right: 10%;
-  height: 100%;
+  height: 90%;
 }
 
 .Nlayout #Nlayout-container #Nmodals-container #modal-container1 {
   width: 30%;
   margin-left: 10%;
   margin-right: 10%;
-  height: 100%;
+  height: 90%;
 }
 
 .Nlayout #Nlayout-container #Nmodals-container .open-button0 {
-  background-color: #1d3e8b;
+  /* background-color: #1d3e8b; */
+  background-image: linear-gradient(to right, var(--secondary), var(--primary));
   color: white;
-  border-radius: 10px;
+  border-radius: 50%;
   height: 100%;
-  width: 100%;
+  width: 70%;
   font-size: 1.2vw;
+  box-shadow: 10px 10px 5px var(--backgroud);
+  border: none;
 }
+
+.Nlayout #Nlayout-container #Nmodals-container .open-button0:hover {
+  /* background-color: purple; */
+  background-image: linear-gradient(
+    to right,
+    var(--hoverbuttons0),
+    var(--hoverbuttons1)
+  );
+}
+
 .Nlayout #Nlayout-container #Nmodals-container .open-button1 {
-  background-color: #1d3e8b;
+  /* background-color: #1d3e8b; */
+  background-image: linear-gradient(to right, var(--secondary), var(--primary));
   color: white;
-  border-radius: 10px;
+  border-radius: 50%;
+  height: 100%;
+  width: 70%;
+  font-size: 1.2vw;
+  box-shadow: 10px 10px 5px var(--auxiliar1);
+  border: none;
+}
+.Nlayout #Nlayout-container #Nmodals-container .open-button1:hover {
+  /* background-color: purple; */
+  background-image: linear-gradient(
+    to right,
+    var(--hoverbuttons0),
+    var(--hoverbuttons1)
+  );
+}
+
+.Olayout {
+  padding-left: 1%;
+  padding-right: 1%;
+  line-height: 1.1em;
+  height: 100%;
+  font-size: 1.1vmax;
+  width: 85%;
+  /* border: 1px solid red; */
+}
+
+.Olayout #Olayout-container {
+  height: 100%;
+  /* border: 2px solid green; */
+}
+.Olayout #Otitle {
+  /* border: 2px solid orange; */
+  margin: 0;
+  height: 5%;
+}
+
+.Olayout #Olayout-container #Oimage-container {
+  margin: 0;
+  height: 90%;
+  /* position: relative; */
+  /* border: 2px solid violet; */
+}
+
+.Olayout #Olayout-container #Oimage-container #Oimage {
+  /* margin: 0;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%); */
   height: 100%;
   width: 100%;
+}
+
+/* Plantilla P */
+
+.Playout {
+  padding-left: 2%;
+  padding-right: 2%;
+  height: 100%;
+  font-size: 1.2vmax;
+  width: 85%;
+  background-image: url("images/CHA_10.jpeg");
+  background-size: 100% 100%;
+  border: 1px solid red;
+}
+.Playout h1 {
+  margin: 0;
+  height: 10%;
+}
+
+.Playout #Playout-container {
+  display: flex;
+  height: 90%;
+}
+.Playout #Playout-container #Pbutton {
+  width: 5%;
+  height: 100%;
+  border: 1px solid green;
+}
+
+.Playout #Playout-container #Pbutton #Pmodals-container {
+  height: 100%;
+}
+
+.Playout #Playout-container #Pbutton #Pmodals-container #modal-container0 {
+  height: 10%;
+  width: 100%;
+}
+
+.Playout #Playout-container #Pbutton #Pmodals-container #modal-container1 {
+  height: 90%;
+  width: 100%;
+  margin: 0;
+}
+
+.Playout #Pbutton .open-button0 {
+  /* background-color: var(--primary); */
+  background-image: linear-gradient(to right, var(--auxiliar2), var(--primary));
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  border: none;
+  color: white;
+  box-shadow: 10px 10px 5px var(--auxiliar1);
   font-size: 1.2vw;
 }
+.Playout #Pbutton .open-button0:hover {
+  background-image: linear-gradient(
+    to right,
+    var(--secondary),
+    var(--hoverbuttons1)
+  );
+}
+.Playout #Playout-container #Pbutton .open-button1 {
+  /* background-color: var(--primary); */
+  background-image: linear-gradient(to right, var(--auxiliar2), var(--primary));
+  width: 100%;
+  margin-top: 20%;
+  height: 80%;
+  border: none;
+  border-radius: 20px;
+  color: white;
+  box-shadow: 8px 8px 5px var(--auxiliar1);
+  font-size: 1.1vmax;
+}
+
+.Playout #Playout-container #Pbutton .open-button1:hover {
+  background-image: linear-gradient(
+    to right,
+    var(--secondary),
+    var(--hoverbuttons1)
+  );
+}
+
+/* .Dlayout #Dtext {
+  width: 55%;
+  padding-left: 3%;
+  padding-right: 3%;
+} */
+
+.Playout #Pimage-container {
+  /* background-color: var(--primary); */
+  border: 1px solid orange;
+  width: 95%;
+  height: 90%;
+  padding-left: 3%;
+  padding-right: 3%;
+}
+
+.Playout #Pimage-container #Pimage {
+  height: 100%;
+  width: 100%;
+}
+
 
 /* Barra lateral del indice */
 
 #index-permanent {
-  height: 95%;
-  width: 15%;
-  background-color: #f5eefe;
+  height: 101%;
+  width: 16%;
+  background-color: #e5cae2;
 }
 
 .index-element-container {
-  height: 5.5%;
+  height: 4.3%;
 }
 
 .index-buttons {
-  background-color:#f5eefe;
-  font-size: 1.1vw;
+  background-color: #e5cae2;
+  font-size: 1.0vw;
   margin: 0;
   border: none;
   height: 100%;
@@ -1087,7 +1620,8 @@ body {
   cursor: pointer;
 }
 .index-buttons:hover {
-  background-color: var(--primary);
+  /* background-color: var(--primary); */
+  background-image: linear-gradient(to right, var(--auxiliar2), var(--primary));
   color: white;
 }
 
@@ -1105,7 +1639,7 @@ body {
   background-color: white;
   width: 80%;
   max-width: 80%;
-  height: 70%;
+  /* height: 70%; */
 }
 
 .modal.active {
@@ -1117,7 +1651,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  border-bottom: 1px solid var(--primary);
+  border-bottom: 1px solid var(--secondary);
   background-color: var(--primary);
   color: white;
 }
@@ -1144,7 +1678,9 @@ body {
 }
 
 .modal-body #image-modal-body {
-  height: 100%;
+  /* border: 1px solid forestgreen; */
+  /* height: 50%; */
+  height: 35vw;
   width: 100%;
 }
 
