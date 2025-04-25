@@ -317,7 +317,7 @@ function colorButton() {
     indexButton21.style.fontWeight = "normal";
     indexButton22.style.fontWeight = "normal";
     // indexButton23.style.fontWeight = "normal";
-  } else if (currentPage ===25) {
+  } else if (currentPage === 25) {
     indexButton11.style.fontWeight = "bold";
     indexButton2.style.fontWeight = "normal";
     indexButton3.style.fontWeight = "normal";
@@ -461,7 +461,7 @@ function colorButton() {
     indexButton21.style.fontWeight = "normal";
     indexButton22.style.fontWeight = "normal";
     // indexButton23.style.fontWeight = "normal";
-  } else if (currentPage===39) {
+  } else if (currentPage === 39) {
     indexButton17.style.fontWeight = "bold";
     indexButton2.style.fontWeight = "normal";
     indexButton3.style.fontWeight = "normal";
@@ -485,7 +485,7 @@ function colorButton() {
     indexButton21.style.fontWeight = "normal";
     indexButton22.style.fontWeight = "normal";
     // indexButton23.style.fontWeight = "normal";
-  } else if (currentPage===40) {
+  } else if (currentPage === 40) {
     indexButton18.style.fontWeight = "bold";
     indexButton2.style.fontWeight = "normal";
     indexButton3.style.fontWeight = "normal";
@@ -509,7 +509,7 @@ function colorButton() {
     indexButton21.style.fontWeight = "normal";
     indexButton22.style.fontWeight = "normal";
     // indexButton23.style.fontWeight = "normal";
-  } else if (currentPage >=41 && currentPage <=47) {
+  } else if (currentPage >= 41 && currentPage <= 47) {
     indexButton19.style.fontWeight = "bold";
     indexButton2.style.fontWeight = "normal";
     indexButton3.style.fontWeight = "normal";
@@ -780,7 +780,7 @@ function CLayOutGenerator(titles, text, page) {
         </div>
         <hr/>
         <div class="button-index-container">
-          <button class="index-big-buttons" onclick="setPage(5)">TEMA 1: DE LA JUSTICIA RESTAURATIVA A LAS PRÁCTICAS</button> 
+          <button class="index-big-buttons" onclick="setPage(5)"><b>TEMA 1: DE LA JUSTICIA RESTAURATIVA A LAS PRÁCTICAS</b></button> 
         </div>
         <div class="button-index-container">
           <button class="index-big-buttons" onclick="setPage(6)">&#9674 Actividad de inicio 1  </button>
@@ -797,13 +797,13 @@ function CLayOutGenerator(titles, text, page) {
         <div class="button-index-container">
           <button class="index-big-buttons" onclick="setPage(21)">&#9674 Actividad Sugerida 1</button>
         </div>
+        
        
         
       </div>
       <div id="column2">
-       <hr/>
         <div class="button-index-container">
-          <button class="index-big-buttons" onclick="setPage(22)">TEMA 2 COMUNIDAD RESTAURATIVA: TRABAJO CONJUNTO</button>
+          <button class="index-big-buttons" onclick="setPage(22)"><b>TEMA 2 COMUNIDAD RESTAURATIVA: TRABAJO CONJUNTO</b></button>
         </div>
         <div class="button-index-container">
           <button class="index-big-buttons" onclick="setPage(23)">&#9674 Actividad de inicio 2</button>
@@ -820,17 +820,18 @@ function CLayOutGenerator(titles, text, page) {
         <div class="button-index-container">
           <button class="index-big-buttons" onclick="setPage(35)">&#9674 Actividad sugerida 2</button> 
         </div>
-        <hr/>
-        <div class="button-index-container">
-          <button class="index-big-buttons" onclick="setPage(36)">TEMA 3: CREACIÓN DE UNA ZONA EDUCATIVA RESTAURATIVA</button> 
-        </div>
-        <div class="button-index-container">
-          <button class="index-big-buttons" onclick="setPage(37)">&#9674 Actividad de inicio 3 </button>
-        </div>
+        
+        
         
         
       </div>
        <div id="column3">
+       <div class="button-index-container">
+          <button class="index-big-buttons" onclick="setPage(36)"><b>TEMA 3: CREACIÓN DE UNA ZONA EDUCATIVA RESTAURATIVA</b></button> 
+        </div>
+        <div class="button-index-container">
+          <button class="index-big-buttons" onclick="setPage(37)">&#9674 Actividad de inicio 3 </button>
+        </div>
        <div class="button-index-container">
           <button class="index-big-buttons" onclick="setPage(39)">&#9674 Concepto y características de una zona restaurativa</button>
         </div>
