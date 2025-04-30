@@ -2,18 +2,15 @@ const textData = {
   0: "texto a remplazarA",
   1: "<strong>Fecha de publicación:</strong> Marzo de 2024 </br>  <strong>Lugar:</strong> Estado Plurinacional de Bolivia</br> </br> <b>Institución responsable:</b> </br> Viceministerio de Educación Superior de Formación Profesional</br>Dirección General de Formación de Maestros</br>Unidad Especializada de Formación Continua – UNEFCO</br> </br> <b>Equipo de redacción y dirección:</b> </br>Fundación Ayuda en Acción </br> ProggettoMondo </br> Unidad Especializada de Formación Continua – UNEFCO </br> </br> <b>Diseño del recurso digital:</b> </br> Iris Ortega </br> Rodrigo Coronel </br>  </br> <b>Sitios oficiales:</b> </br> www.minedu.gob.bo </br> http://unefco.minedu.gob.bo/  ",
   2: "texto a remplazarC",
-  3: "<b> <br> <br> <br>  El Plan de Formación para Maestras y Maestros es una modalidad de aprendizaje, compuesta por cursos cortos, desarrollada por el Ministerio de Educación a través de la Unidad Especializada de Formación Continua (UNEFCO) para profundizar y fortalecer habilidades y capacidades en la labor educativa, con un enfoque en la mejora de las prácticas y procesos formativos. Su propósito, de acuerdo con la Ley de Educación N° 070 “Avelino Siñani – Elizardo Pérez”, es trabajar por la universalización del Modelo Educativo Sociocomunitario Productivo, en atención a los diferentes niveles y áreas temáticas, con relevancia cultural y lingüística. <br> <br> Las prácticas restaurativas se han venido consolidando como una ciencia social emergente desde aproximadamente el 2013, época en la cual se estudian las acciones individuales y efectivas dirigidas hacia tres objetivos: el fortalecimiento comunitario, la resolución pacífica de conflictos y la	del daño o falta u ofensa cuando se produce. Se definen las mismas como respuestas no punitivas orientadas a la reparación del daño, potenciar las relaciones interpersonales, fortalecer la resolución de los conflictos y desarrollar soluciones que incluyan a todas las personas involucradas en un daño o falta u ofensa; tomando en cuenta que el manejo restaurativo de los afectos en el aula mejora la capacidad para el aprendizaje y la resiliencia. <br> <br> Los cuadernos del ciclo formativo: <b> “PRÁCTICAS RESTAURATIVAS PARA LA RESOLUCIÓN DE CONFLICTOS Y UNA VIDA LIBRE DE VIOLENCIA” </b>, nos invitan a replantearnos la manera en que enfrentamos los conflictos, desafiando los paradigmas arraigados de confrontación y castigo. A medida que nos sumergimos en las profundidades de las prácticas restaurativas, descubrimos su capacidad no solo para restaurar el daño o falta u ofensa causado por los conflictos, sino también para fortalecer nuestros lazos comunitarios y fomentar un clima de confianza y respeto mutuo. Este ciclo cuenta con tres cursos, en el Primer Curso, se aborda la parte normativa, lo que es y no es conflicto para luego introducir al enfoque restaurativo; en el Segundo Curso, se presenta; y en el Tercer Curso presentamos una caja de herramientas práctica para la aplicación en el quehacer educativo. <br> <br><b>Jorge Galindo Villa Castro COORDINADOR GENERAL – UNEFCO</b>",
+  3: "<br> <br> <br>  El Plan de Formación para Maestras y Maestros es una modalidad de aprendizaje, compuesta por cursos cortos, desarrollada por el Ministerio de Educación a través de la Unidad Especializada de Formación Continua (UNEFCO) para profundizar y fortalecer habilidades y capacidades en la labor educativa, con un enfoque en la mejora de las prácticas y procesos formativos. Su propósito, de acuerdo con la Ley de Educación N° 070 “Avelino Siñani – Elizardo Pérez”, es trabajar por la universalización del Modelo Educativo Sociocomunitario Productivo, en atención a los diferentes niveles y áreas temáticas, con relevancia cultural y lingüística. <br> <br> Las prácticas restaurativas se han venido consolidando como una ciencia social emergente desde aproximadamente el 2013, época en la cual se estudian las acciones individuales y efectivas dirigidas hacia tres objetivos: el fortalecimiento comunitario, la resolución pacífica de conflictos y la	del daño o falta u ofensa cuando se produce. Se definen las mismas como respuestas no punitivas orientadas a la reparación del daño, potenciar las relaciones interpersonales, fortalecer la resolución de los conflictos y desarrollar soluciones que incluyan a todas las personas involucradas en un daño o falta u ofensa; tomando en cuenta que el manejo restaurativo de los afectos en el aula mejora la capacidad para el aprendizaje y la resiliencia. <br> <br> Los cuadernos del ciclo formativo: <b> “PRÁCTICAS RESTAURATIVAS PARA LA RESOLUCIÓN DE CONFLICTOS Y UNA VIDA LIBRE DE VIOLENCIA” </b>, nos invitan a replantearnos la manera en que enfrentamos los conflictos, desafiando los paradigmas arraigados de confrontación y castigo. A medida que nos sumergimos en las profundidades de las prácticas restaurativas, descubrimos su capacidad no solo para restaurar el daño o falta u ofensa causado por los conflictos, sino también para fortalecer nuestros lazos comunitarios y fomentar un clima de confianza y respeto mutuo. Este ciclo cuenta con tres cursos, en el Primer Curso, se aborda la parte normativa, lo que es y no es conflicto para luego introducir al enfoque restaurativo; en el Segundo Curso, se presenta; y en el Tercer Curso presentamos una caja de herramientas práctica para la aplicación en el quehacer educativo. <br> <br><b>Jorge Galindo Villa Castro COORDINADOR GENERAL – UNEFCO",
   4: " <br>  <br> <b>OBJETIVO HOLÍSTICO DEL CICLO</b> <br> Fortalecemos en maestras y maestros la responsabilidad de ser los principales actores en la resolución de conflictos, desarrollando su análisis y reflexión sobre los principios del enfoque restaurativo, promoviendo la incorporación de las prácticas restaurativas en sus procesos de interacción cotidianos, tomando decisiones para la promoción de una convivencia, pacífica, armónica y libre de violencia en su comunidad educativa. <br><br> <b> OBJETIVO HOLÍSTICO DEL CURSO</b><br> Identificamos condiciones para prácticas educativas restaurativas, su implementación en la resolución de conflictos y a la prevención de la violencia, con participación activa de integrantes de la comunidad educativa, para contar con espacios educativos restaurativos. <br>",
   5: " ",
   6: "Esta actividad busca activar tus saberes iniciales y generar un espacio de diálogo sobre cómo comprendemos la justicia, la convivencia y la reparación del daño dentro de la comunidad educativa. <br><br>   A partir de preguntas detonadoras, experiencias compartidas o mapas conceptuales, podrás identificar cómo se relacionan los valores restaurativos con tu práctica cotidiana, y sentar las bases para un aprendizaje significativo y contextualizado. <br><br>  Recuerda <b> descargar la plantilla </b> Actividad de inicio tema 1 o abrirla en la carpeta de <b> recursos adicionales </b> para llenar tus respuestas.",
-  7: [
-    "Maestras y maestros desarrollan dinámicas de resolución de conflictos a partir de una cultura restaurativa, para una convivencia pacífica. Tenemos que tomar en cuenta que los programas de justicia restaurativa están basados en el principio fundamental que la conducta antisocial no es solo infringir la norma o las leyes, es también el daño, falta u ofensa que se realiza a una víctima que es parte de una comunidad.",
-    " <br> <br>  <br> <br> La aplicación de la práctica restaurativa se dará a través de la resolución de los conflictos, de manera que cuando una de las personas cometía una infracción, un daño o falta u ofensa o una ofensa se utilizan prácticas de diálogo y reparación, es ofrecer un espacio de encuentro a todas las personas relacionadas con el hecho que de una u otra manera fueron parte; ya sea como víctimas, como espectadores pasivos o activos, como persona que realiza la ofensa y otros.",
-  ],
+  7: "",
   8: " Para profundizar en <b>  Aspectos fundamentales de la justicia restaurativa en la unidad educativa </b>, avanza con las flechas para revisar más información.",
   9: " ",
 
-  10: "<br>   Las consecuencias de la violencia son diferentes, según la acción u omisión que se ejerce contra <b>una niña, un niño o adolescente</b> y depende de diversos factores como: <br>   <b>El tipo de conducta, la relación de la agresora o del agresor con la víctima, la frecuencia, la relación del contexto</b>, etc. que suponen <b>efectos inmediatos y, en ocasiones, crónicos</b> si no se interviene de forma temprana y adecuada. <br>  <br>   Por lo general, cuando hay consecuencias físicas, éstas son identificables porque <b>dejan huellas en el cuerpo</b> y, la mayoría de las veces, son visibles. <br> Sin embargo, este tipo de violencia viene acompañada con <b>una gran carga de violencia psicológica que no siempre es visible y aparentemente no deja marcas</b>, por lo tanto, muchas veces <b>no son atendidas de manera inmediata</b>.",
+  10: "",
   11: "Para profundizar sobre <b>  la Violencia Escolar</b>, avanza con las flechas para revisar más información. ",
   12: "La violencia escolar incluye <b>agresiones físicas (golpes, puñetazos, patadas)</b>, <b>agresiones verbales (amenazas, burlas, apodos, rumores, entre otros)</b>, <b>exclusión social</b>, y además pueden presentarse <b>agresiones sexuales (tocamientos no consentidos, abuso sexual -que no se enmarquen en la comisión de un delito-)</b>. </br>  </br> Cuando estas violencias se manifiestan entre pares de manera repetida y contemplan <b>un desequilibrio en el poder entre quien ejerce el maltrato y quien lo recibe, con la intención de lastimar</b>, entonces se trata de maltrato entre pares; es decir, entre iguales, este tipo de violencia puede darse <b>al interior de los grupos que conforman la comunidad educativa (estudiantes, maestros/maestras, personal administrativo)</b></br></br>. También existe el maltrato entre no pares; es decir, en <b>personas de grupos diferentes que son parte de la comunidad educativa (maestra/maestro contra estudiante, estudiante contra maestra/maestro, directivo contra maestra/maestro)</b>.",
   13: "Para profundizar sobre <b> Tipos de violencia escolar </b>, avanza con las flechas para revisar más información. ",
@@ -34,14 +31,11 @@ const textData = {
   ],
   //19: "Tenemos que tener presente que las <b>prácticas restaurativas</b> surgen como una <b>ciencia social</b> que nos permite procesos de <b>restauración</b> y construcción de <b>“comunidad”</b>, entendida ésta como el conjunto de <b>relaciones</b> que entretejen las personas; emerge el <b>sentimiento de pertenecer</b> a un grupo e <b>intereses comunes</b>.  <br> Es una relación construida sobre el <b>afecto</b>, los <b>fines</b> y los <b>valores comunes</b>, así́ como en la <b>lealtad</b> y la <b>reciprocidad</b> entre todos sus integrantes.<br> <br>  Recordamos que es una <b>disciplina</b> que nos permite construir un <b>capital social</b> a través de procesos de <b>aprendizaje</b> y <b>toma de decisiones</b> de manera <b>voluntaria</b> y <b>participativa</b>, generando así estas prácticas restaurativas <b>espacios seguros de diálogo</b>, afrontando situaciones tensas de <b>conflicto</b> desde una <b>perspectiva restaurativa</b>, para <b>reparar las relaciones</b> rotas o afectadas.",
   19: " ",
-  20: "Para profundizar sobre <b> Practicas restaurativas no formales </b>, avanza con las flechas para revisar más información.",
+  20: "Para profundizar sobre <b> Prácticas restaurativas no formales </b>, avanza con las flechas para revisar más información.",
   21: "Esta actividad tiene como objetivo promover una comprensión más profunda sobre los principios, objetivos y beneficios de la <b> justicia restaurativa </b> en el entorno educativo. A través del análisis, el diálogo y la reflexión conjunta, podrás identificar cómo esta perspectiva va más allá de una forma de resolver conflictos, y se convierte en una herramienta para fortalecer los vínculos, construir comunidad y reparar el daño de manera participativa. <br> <br>  <b> La participación activa y el trabajo colaborativo serán clave </b> para nutrir esta experiencia de aprendizaje y avanzar hacia comunidades escolares más justas, empáticas y restaurativas. <br> <br> Recuerda <b> descargar la plantilla </b> Actividad sugerida tema 1 o abrirla en la carpeta de <b> recursos adicionales </b> para llenar tus respuestas.",
   22: " ",
   23: "Para comenzar el segundo tema de este curso, te invitamos a reflexionar sobre los elementos que componen una <b>  comunidad educativa restaurativa. </b>  Esta actividad busca identificar, a partir de tus experiencias, ideas clave relacionadas con la convivencia, la participación, el cuidado mutuo y la reparación del daño. <br> <br> <b> Este ejercicio te ayudará a conectar lo vivido con los principios restaurativos</b>, y será la base para seguir profundizando en herramientas concretas que promuevan entornos escolares más seguros, empáticos y solidarios. <br> <br>  Recuerda <b> descargar la plantilla </b> Actividad de inicio tema 2 o abrirla en la carpeta de <b> recursos adicionales </b> para llenar tus respuestas. ",
-  24: [
-    "<b>La práctica restaurativa</b> es una alternativa a las políticas excluyente y punitivas que se dan a través de una convivencia tradicional donde aún se practica una disciplina basada en la culpabilidad y el castigo, a pesar de que existen investigaciones que muestran que estas son ineficaces en la prevención de las conductas no adecuadas; más al contrario, muchas veces, agravan los problemas de disciplina y lleva a algunos estudiantes a tener problemas de comisión de delito",
-    "<br> <br> Este proceso puede ser denominado como una <b>comunidad restaurativa</b> porque es el esfuerzo de todas las personas que conforman la comunidad educativa: estamento estudiantil <b>-niñas, niños y adolescentes-</b>, maestras, maestros, madres/padres o tutores de familia, personal de dirección.",
-  ],
+  24: "",
   25: "Para profundizar sobre <b> las bases de una comunidad educativa restaurativa </b>, avanza con las flechas para revisar más información. ",
   26: "<br><b>Maestras y maestros</b> pueden ser <b>facilitadores</b> de <b>prácticas restaurativas</b> en el ámbito educativo. “Estas prácticas buscan <b>mejorar la convivencia escolar</b> al crear <b>vínculos</b> entre los miembros de la comunidad, resolviendo <b>conflictos</b> a partir del <b>diálogo</b> y creando <b>entornos positivos</b> con la <b>participación</b> de toda la comunidad educativa”. (educacionyfp.gob.es, 2020). <br> <br> La figura de la persona que actúa <b>facilitando</b> en las prácticas restaurativas es recomendable que sea <b>asumida</b> y <b>comprendida</b> por <b>maestras y maestros</b>, <b>personal directivo</b> y <b>personal administrativo</b> en su plenitud, para que así puedan <b>realizar</b> y <b>organizar</b>, tanto las prácticas como la <b>metodología de intervención</b> en la comunidad educativa.",
   27: " ",
@@ -153,7 +147,7 @@ const titlesData = {
   37: "Historia de una situación de conflicto",
   38: [
     "<br>Finalidades en el desarrollo de las prácticas restaurativas",
-    "prácticas restaurativas novedosas",
+    "Prácticas restaurativas novedosas",
   ],
   39: "Concepto y características de una zona restaurativa",
   40: "Definimos el rol de los integrantes de la comunidad educativa en una zona restaurativa.",
@@ -170,10 +164,10 @@ const titlesData = {
   51: "Glosario",
   52: "Glosario",
   53: "Glosario",
-  54: "Glosario",
-  55: "Bibliografia",
-  56: "Bibliografia",
-  57: "Bibliografia",
+  54: "Bibliografía",
+  55: "Bibliografía",
+  56: "Bibliografía",
+  57: "Bibliografía",
   //58: " ",
 };
 
@@ -185,10 +179,10 @@ const layoutData = {
   4: "Dlayout",
   5: "Elayout",
   6: "Flayout",
-  7: "Klayout",
+  7: "Olayout",
   8: "Jlayout",
   9: "Olayout",
-  10: "Dlayout",
+  10: "Playout",
   11: "Jlayout",
   12: "Dlayout",
   13: "Jlayout",
@@ -202,7 +196,7 @@ const layoutData = {
   21: "Flayout",
   22: "Elayout",
   23: "Flayout",
-  24: "Klayout",
+  24: "Olayout",
   25: "Jlayout",
   26: "Dlayout",
   27: "Jlayout",
@@ -222,7 +216,7 @@ const layoutData = {
   41: "Dlayout",
   42: "Jlayout",
   43: "Ilayout",
-  44: "Blayout",
+  44: "Olayout",
   45: "Olayout",
   46: "Jlayout",
   47: "Dlayout",
@@ -252,10 +246,9 @@ const popUpData = {
       buttonName: "Abrir",
     },
     {
-      title: "De la justicia restaurativa a las prácticas educativas",
-      typeofContent: "text",
-      contentModal:
-        "¡Te damos la bienvenida a este nuevo espacio de aprendizaje y reflexión! <br> <br>En este segundo curso profundizaremos en los fundamentos de la <b>  justicia restaurativa </b>  y su aplicación concreta en el ámbito educativo, a través de herramientas, prácticas y estrategias que promueven una convivencia pacífica, inclusiva y transformadora. ",
+      title: " ",
+      typeofContent: "image",
+      contentModal: "PAG4POP-2.png",
       buttonName: "Abrir",
     },
   ],
@@ -267,16 +260,14 @@ const popUpData = {
   10: [
     {
       title: " ",
-      typeofContent: "text",
-      contentModal:
-        "Las prácticas restaurativas en el ámbito educativo abordan los conflictos desde un enfoque social, afectivo, pedagógico y de derechos, orientado por los principios de protección integral e interés superior de niñas, niños y adolescentes, mujeres y hombres. Diferentes investigaciones  prueban que el modelo de gestión de conflictos basado en el enfoque restaurativo frena la reincidencia, facilita la restauración de relaciones entre las personas implicadas, ayuda a instaurar un sentimiento de pertenencia a la comunidad, favorece la reparación de los daños, faltas u ofensas en el grupo de estudiantes víctimas y aumenta la implicación personal en la resolución.",
+      typeofContent: "image",
+      contentModal: "PAG10POP-1.png",
       buttonName: "Abrir",
     },
     {
       title: " ",
-      typeofContent: "text",
-      contentModal:
-        "En la comunidad educativa las prácticas restaurativas están dirigidas a crear y fortalecer el sentido de comunidad y prevenir, detectar y gestionar los conflictos y las manifestaciones de violencia. Las herramientas principales que utiliza el enfoque restaurativo son la escucha activa, el diálogorestaurativo, la Comunicación No Violenta, y los círculos restaurativos. Implementadas de manera progresiva y constante, las prácticas restaurativas ayudan a disminuir la deserción escolar y a mejorar el rendimiento académico de los estudiantes. (educación.gob.ec, 2018)",
+      typeofContent: "image",
+      contentModal: "PAG10POP-2.png",
       buttonName: "Abrir",
     },
   ],
@@ -318,9 +309,8 @@ const popUpData = {
   18: [
     {
       title: "",
-      typeofContent: "text",
-      contentModal:
-        "En las comunidades educativas o en la unidad educativa, las prácticas restaurativas están dirigidas a crear y fortalecer el sentido de comunidad y prevenir, detectar y gestionar los conflictos y las manifestaciones de violencia. Las herramientas principales que utiliza el enfoque restaurativo son la escucha activa, el diálogo restaurativo, la comunicación no violenta y los círculos restaurativos. Los cuales son Implementados de manera progresiva y constante, las prácticas restaurativas, en general, ayudan a disminuir la deserción escolar y a mejorar el rendimiento académico del estamento estudiantil. (educación.gob.ec, 2018)",
+      typeofContent: "image",
+      contentModal: "PAG18POP-1.png",
       buttonName: "Fortalecer sentido de comunidad",
     },
   ],
@@ -382,9 +372,8 @@ const popUpData = {
   32: [
     {
       title: "",
-      typeofContent: "text",
-      contentModal:
-        "El estudiante, mujer u hombre, al ser consciente sobre que cada conducta tiene su efecto de manera directa e indirecta, tomando en cuenta que toda acción tiene una reacción, tendrá la posibilidad de reflexionar, analizar o evitar ciertas conductas o comportamientos que dañen a otra persona; por lo tanto, ayudarán, de una u otra manera, a los procesos de prevención de diferentes faltas y/o infracciones, de violencias hacia uno mismo, como también hacia su entorno. Se convierten en los protagonistas que pueden ir coadyuvando en las prácticas restaurativas y fortalecer a los gobiernos estudiantes que permita tener una mejor y mayor representación de la población de estudiantes de la unidad educativa.",
+      typeofContent: "image",
+      contentModal: "PAG32POP-1.png",
       buttonName: "Estudiante consciente",
     },
   ],
@@ -399,15 +388,14 @@ const popUpData = {
   34: [
     {
       title: "Para la prevención de conflictos y violencia",
-      typeofContent: "text",
-      contentModal:
-        " La inclusión activa de madre/padre o tutor de familia en la prevención del conflicto a través de la resolución de los mismos no es solo el de brindar la información sobre los desafíos o los problemas que se puede atravesar en la unidad educativa sino y, sobre todo, el de su involucramiento como partícipes, como socios en una búsqueda de soluciones conjuntas y sobre todo de la comunitarias. La conexión estrecha entre la comunidad educativa y las familias promueve una cultura de cooperación que beneficia no solo a la resolución de conflictos individuales, a los colectivos y sobre todo al ambiente educativo en su conjunto (Fernández M. , 2009).",
+      typeofContent: "image",
+      contentModal: "PAG34POP-1.png",
       buttonName: "Abrir",
     },
     {
       title: " ",
       typeofContent: "image",
-      contentModal: "PAG34POP-1.png",
+      contentModal: "PAG34POP-2.png",
       buttonName: "Abrir",
     },
   ],
@@ -426,53 +414,49 @@ const popUpData = {
   40: [
     {
       title: " ",
-      typeofContent: "text",
-      contentModal:
-        "Que es uno de los beneficiarios de la intervención, en quien se busca generar conciencia sobre la restitución de derecho afectado, la responsabilidad sobre la ofensa cometida, la reparación del daño a la víctima y la reintegración a la comunidad educativa para cambiar su trayectoria.",
+      typeofContent: "image",
+      contentModal: "PAG40POP-1.png",
+
       buttonName: "El niño, niña, adolescente o persona adulta ofensora",
     },
     {
       title: " ",
-      typeofContent: "text",
-      contentModal:
-        " Que es el otro beneficiario de la intervención, en quien se busca generar conciencia sobre su situación, la necesidad de reparación y la generación de confianza para poder reencontrarse con la persona que ha generado la ofensa, la falta o el daño y reintegrarse a su comunidad educativa luego del daño del que fue objeto.",
+      typeofContent: "image",
+      contentModal: "PAG40POP-2.png",
+
       buttonName: "El niño, niña, adolescente o persona adulta víctima",
     },
     {
       title: " ",
-      typeofContent: "text",
-      contentModal:
-        "A la que se reintegra la persona que actúo como ofensor/a y persona que resultó víctima. También puede ser sujeto o espacio de reparación y, al mismo tiempo, responsable de la ejecución de acciones para mejorar la convivencia escolar.",
+      typeofContent: "image",
+      contentModal: "PAG40POP-3.png",
+
       buttonName: "La comunidad educativa",
     },
     {
       title: " ",
-      typeofContent: "text",
-      contentModal:
-        "Que tiene el perfil y la preparación adecuada para la conducción de las prácticas restaurativas; en general maestras y maestros.",
+      typeofContent: "image",
+      contentModal: "PAG40POP-4.png",
       buttonName: "Facilitadores de la práctica",
     },
     {
       title: " ",
-      typeofContent: "text",
-      contentModal:
-        "Integrantes de la comunidad educativa que pueden ser el personal de dirección, maestras, maestros o una persona encargada de realizar el proceso restaurativo al interior de la unidad educativa, entre otros.",
+      typeofContent: "image",
+      contentModal: "PAG40POP-5.png",
       buttonName: "Las autoridades de gestión y dirección",
     },
   ],
   41: [
     {
       title: " ",
-      typeofContent: "text",
-      contentModal:
-        "Este abordaje debe ser incluido en la planificación educativa de las y los maestros, considerando los siguientes instrumentos de gestión, según corresponda el nivel educativo en el sistema: <br> <br> • Plan de desarrollo curricular (PDC) <br> • Proyecto Socio Comunitario Productivo (PSP) <br> • Plan de Anual Trimestralizado (PAT)",
+      typeofContent: "image",
+      contentModal: "PAG41POP-1.png",
       buttonName: "Abrir",
     },
     {
       title: " ",
-      typeofContent: "text",
-      contentModal:
-        "a. Los <b>derechos y deberes</b> de las y los miembros de la <b>comunidad educativa</b> y/o centros. <br> <br> b. <b>Normas de conducta</b> favorables a la <b>convivencia pacífica y armónica</b>, el <b>buen trato</b> de la comunidad educativa. <br> <br> c. El <b>procedimiento disciplinario</b> que describa detalladamente las conductas que vulneran las <b>normas de convivencia</b>. <br> <br> d. La descripción de las <b>sanciones internas</b> que definan las unidades educativas y/o centros, sean públicas, privadas o de convenio. <br> <br> e. El <b>procedimiento marco</b> para la adopción de decisiones disciplinarias que deben sujetarse a <b>criterios y valores</b> conocidos por normas educativas nacionales, departamentales, municipales y de la región, evitando de toda forma las <b>decisiones arbitrarias</b>. <br> <br> f. La descripción de <b>procedimientos alternativos</b> para la resolución de conflictos, si la comunidad así lo establece, siempre que no sean contrarios a ninguna norma. <br> <br> g. La <b>remisión de informes anuales</b> sobre los casos de <b>acoso, violencia y/o abusos</b> a través de las instancias correspondientes de la red educativa, Distrital de Educación, Departamental de Educación hasta llegar al <b>Ministerio de Educación</b>. <br> <br> h. La organización de <b>programas y talleres de capacitación</b> destinados a la <b>prevención</b>. <br> <br> i. La programación de <b>actividades</b>, con el fin exclusivo de fomentar un clima de <b>convivencia pacífica y armónica</b> dentro de las unidades educativas y/o centros. <br> <br> ",
+      typeofContent: "image",
+      contentModal: "PAG41POP-2.png",
       buttonName: "Abrir",
     },
   ],
@@ -490,8 +474,8 @@ const popUpData = {
     },
     {
       title: " ",
-      typeofContent: "text",
-      contentModal: "tPAG47POP-2.png",
+      typeofContent: "image",
+      contentModal: "PAG47POP-2.png",
       buttonName: "Abrir",
     },
   ],
@@ -595,12 +579,13 @@ const imagesData = {
     "PAG39-3.png",
     "PAG39-4.png",
     "PAG39-5.png",
+    "PAG39-6.png",
   ],
   40: "",
   41: "PAG41-1.png",
   42: ["PAG42-1.png", "PAG42-2.png", "PAG42-3.png", "PAG42-4.png"],
   43: ["PAG43-1.png", "PAG43-2.png"],
-  44: "",
+  44: "PAG44-1.png",
   45: "PAG45-1.png",
   46: [
     "PAG46-1.png",

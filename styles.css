@@ -1505,7 +1505,7 @@ hr {
   width: 85%;
   background-image: url("images/CHA_10.jpeg");
   background-size: 100% 100%;
-  border: 1px solid red;
+  /* border: 1px solid red; */
 }
 .Playout h1 {
   margin: 0;
@@ -1519,7 +1519,7 @@ hr {
 .Playout #Playout-container #Pbutton {
   width: 5%;
   height: 100%;
-  border: 1px solid green;
+  /* border: 1px solid green; */
 }
 
 .Playout #Playout-container #Pbutton #Pmodals-container {
@@ -1584,7 +1584,7 @@ hr {
 
 .Playout #Pimage-container {
   /* background-color: var(--primary); */
-  border: 1px solid orange;
+  /* border: 1px solid orange; */
   width: 95%;
   height: 90%;
   padding-left: 3%;
