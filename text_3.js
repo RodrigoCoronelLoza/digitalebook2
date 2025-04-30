@@ -542,7 +542,7 @@ const imagesData = {
   23: ["PAG23-1.png", "PAG23-2.png"],
   24: "PAG24-1.png",
   25: [
-    "PAG25-1.png",
+    "PAG25-1 (2).png",
     "PAG25-2.png",
     "PAG25-3.png",
     "PAG25-4.png",
