@@ -101,7 +101,7 @@ function colorButton() {
     indexButton21.style.fontWeight = "normal";
     indexButton22.style.fontWeight = "normal";
     // indexButton23.style.fontWeight = "normal";
-  } else if (currentPage === 4) {
+  } if (currentPage === 4) {
     indexButton2.style.fontWeight = "bold";
     indexButton1.style.fontWeight = "normal";
     indexButton3.style.fontWeight = "normal";
@@ -125,7 +125,7 @@ function colorButton() {
     indexButton21.style.fontWeight = "normal";
     indexButton22.style.fontWeight = "normal";
     // indexButton23.style.fontWeight = "normal";
-  } else if (currentPage === 5) {
+  } if (currentPage >= 5 && currentPage <= 21) {
     indexButton3.style.fontWeight = "bold";
     indexButton2.style.fontWeight = "normal";
     indexButton1.style.fontWeight = "normal";
@@ -149,10 +149,10 @@ function colorButton() {
     indexButton21.style.fontWeight = "normal";
     indexButton22.style.fontWeight = "normal";
     // indexButton23.style.fontWeight = "normal";
-  } else if (currentPage >= 6 && currentPage <= 7) {
+  } if (currentPage >= 6 && currentPage <= 7) {
     indexButton4.style.fontWeight = "bold";
     indexButton2.style.fontWeight = "normal";
-    indexButton3.style.fontWeight = "normal";
+    indexButton3.style.fontWeight = "bold";
     indexButton1.style.fontWeight = "normal";
     indexButton5.style.fontWeight = "normal";
     indexButton6.style.fontWeight = "normal";
@@ -173,10 +173,10 @@ function colorButton() {
     indexButton21.style.fontWeight = "normal";
     indexButton22.style.fontWeight = "normal";
     // indexButton23.style.fontWeight = "normal";
-  } else if (currentPage >= 8 && currentPage <= 12) {
+  } if (currentPage >= 8 && currentPage <= 12) {
     indexButton5.style.fontWeight = "bold";
     indexButton2.style.fontWeight = "normal";
-    indexButton3.style.fontWeight = "normal";
+    indexButton3.style.fontWeight = "bold";
     indexButton4.style.fontWeight = "normal";
     indexButton1.style.fontWeight = "normal";
     indexButton6.style.fontWeight = "normal";
@@ -197,10 +197,10 @@ function colorButton() {
     indexButton21.style.fontWeight = "normal";
     indexButton22.style.fontWeight = "normal";
     // indexButton23.style.fontWeight = "normal";
-  } else if (currentPage >= 13 && currentPage <= 16) {
+  } if (currentPage >= 13 && currentPage <= 16) {
     indexButton6.style.fontWeight = "bold";
     indexButton2.style.fontWeight = "normal";
-    indexButton3.style.fontWeight = "normal";
+    indexButton3.style.fontWeight = "bold";
     indexButton4.style.fontWeight = "normal";
     indexButton5.style.fontWeight = "normal";
     indexButton1.style.fontWeight = "normal";
@@ -221,10 +221,10 @@ function colorButton() {
     indexButton21.style.fontWeight = "normal";
     indexButton22.style.fontWeight = "normal";
     // indexButton23.style.fontWeight = "normal";
-  } else if (currentPage >= 17 && currentPage <= 20) {
+  } if (currentPage >= 17 && currentPage <= 20) {
     indexButton7.style.fontWeight = "bold";
     indexButton2.style.fontWeight = "normal";
-    indexButton3.style.fontWeight = "normal";
+    indexButton3.style.fontWeight = "bold";
     indexButton4.style.fontWeight = "normal";
     indexButton5.style.fontWeight = "normal";
     indexButton6.style.fontWeight = "normal";
@@ -245,10 +245,10 @@ function colorButton() {
     indexButton21.style.fontWeight = "normal";
     indexButton22.style.fontWeight = "normal";
     // indexButton23.style.fontWeight = "normal";
-  } else if (currentPage === 21) {
+  } if (currentPage === 21) {
     indexButton8.style.fontWeight = "bold";
     indexButton2.style.fontWeight = "normal";
-    indexButton3.style.fontWeight = "normal";
+    indexButton3.style.fontWeight = "bold";
     indexButton4.style.fontWeight = "normal";
     indexButton5.style.fontWeight = "normal";
     indexButton6.style.fontWeight = "normal";
@@ -269,7 +269,7 @@ function colorButton() {
     indexButton21.style.fontWeight = "normal";
     indexButton22.style.fontWeight = "normal";
     // indexButton23.style.fontWeight = "normal";
-  } else if (currentPage === 22) {
+  } if (currentPage >= 22 && currentPage <= 35) {
     indexButton9.style.fontWeight = "bold";
     indexButton2.style.fontWeight = "normal";
     indexButton3.style.fontWeight = "normal";
@@ -293,7 +293,7 @@ function colorButton() {
     indexButton21.style.fontWeight = "normal";
     indexButton22.style.fontWeight = "normal";
     // indexButton23.style.fontWeight = "normal";
-  } else if (currentPage >= 23 && currentPage <= 24) {
+  } if (currentPage >= 23 && currentPage <= 24) {
     indexButton10.style.fontWeight = "bold";
     indexButton2.style.fontWeight = "normal";
     indexButton3.style.fontWeight = "normal";
@@ -302,7 +302,7 @@ function colorButton() {
     indexButton6.style.fontWeight = "normal";
     indexButton7.style.fontWeight = "normal";
     indexButton8.style.fontWeight = "normal";
-    indexButton9.style.fontWeight = "normal";
+    indexButton9.style.fontWeight = "bold";
     indexButton1.style.fontWeight = "normal";
     indexButton11.style.fontWeight = "normal";
     indexButton12.style.fontWeight = "normal";
@@ -317,7 +317,7 @@ function colorButton() {
     indexButton21.style.fontWeight = "normal";
     indexButton22.style.fontWeight = "normal";
     // indexButton23.style.fontWeight = "normal";
-  } else if (currentPage === 25) {
+  } if (currentPage === 25) {
     indexButton11.style.fontWeight = "bold";
     indexButton2.style.fontWeight = "normal";
     indexButton3.style.fontWeight = "normal";
@@ -326,7 +326,7 @@ function colorButton() {
     indexButton6.style.fontWeight = "normal";
     indexButton7.style.fontWeight = "normal";
     indexButton8.style.fontWeight = "normal";
-    indexButton9.style.fontWeight = "normal";
+    indexButton9.style.fontWeight = "bold";
     indexButton10.style.fontWeight = "normal";
     indexButton1.style.fontWeight = "normal";
     indexButton12.style.fontWeight = "normal";
@@ -341,7 +341,7 @@ function colorButton() {
     indexButton21.style.fontWeight = "normal";
     indexButton22.style.fontWeight = "normal";
     // indexButton23.style.fontWeight = "normal";
-  } else if (currentPage >= 26 && currentPage <= 29) {
+  } if (currentPage >= 26 && currentPage <= 29) {
     indexButton12.style.fontWeight = "bold";
     indexButton2.style.fontWeight = "normal";
     indexButton3.style.fontWeight = "normal";
@@ -350,7 +350,7 @@ function colorButton() {
     indexButton6.style.fontWeight = "normal";
     indexButton7.style.fontWeight = "normal";
     indexButton8.style.fontWeight = "normal";
-    indexButton9.style.fontWeight = "normal";
+    indexButton9.style.fontWeight = "bold";
     indexButton10.style.fontWeight = "normal";
     indexButton11.style.fontWeight = "normal";
     indexButton1.style.fontWeight = "normal";
@@ -365,7 +365,7 @@ function colorButton() {
     indexButton21.style.fontWeight = "normal";
     indexButton22.style.fontWeight = "normal";
     // indexButton23.style.fontWeight = "normal";
-  } else if (currentPage >= 30 && currentPage <= 34) {
+  } if (currentPage >= 30 && currentPage <= 34) {
     indexButton13.style.fontWeight = "bold";
     indexButton2.style.fontWeight = "normal";
     indexButton3.style.fontWeight = "normal";
@@ -374,7 +374,7 @@ function colorButton() {
     indexButton6.style.fontWeight = "normal";
     indexButton7.style.fontWeight = "normal";
     indexButton8.style.fontWeight = "normal";
-    indexButton9.style.fontWeight = "normal";
+    indexButton9.style.fontWeight = "bold";
     indexButton10.style.fontWeight = "normal";
     indexButton11.style.fontWeight = "normal";
     indexButton12.style.fontWeight = "normal";
@@ -389,7 +389,7 @@ function colorButton() {
     indexButton21.style.fontWeight = "normal";
     indexButton22.style.fontWeight = "normal";
     // indexButton23.style.fontWeight = "normal";
-  } else if (currentPage === 35) {
+  } if (currentPage === 35) {
     indexButton14.style.fontWeight = "bold";
     indexButton2.style.fontWeight = "normal";
     indexButton3.style.fontWeight = "normal";
@@ -398,7 +398,7 @@ function colorButton() {
     indexButton6.style.fontWeight = "normal";
     indexButton7.style.fontWeight = "normal";
     indexButton8.style.fontWeight = "normal";
-    indexButton9.style.fontWeight = "normal";
+    indexButton9.style.fontWeight = "bold";
     indexButton10.style.fontWeight = "normal";
     indexButton11.style.fontWeight = "normal";
     indexButton12.style.fontWeight = "normal";
@@ -413,7 +413,7 @@ function colorButton() {
     indexButton21.style.fontWeight = "normal";
     indexButton22.style.fontWeight = "normal";
     // indexButton23.style.fontWeight = "normal";
-  } else if (currentPage === 36) {
+  } if (currentPage >= 36 && currentPage <= 49) {
     indexButton15.style.fontWeight = "bold";
     indexButton2.style.fontWeight = "normal";
     indexButton3.style.fontWeight = "normal";
@@ -437,7 +437,7 @@ function colorButton() {
     indexButton21.style.fontWeight = "normal";
     indexButton22.style.fontWeight = "normal";
     // indexButton23.style.fontWeight = "normal";
-  } else if (currentPage >= 37 && currentPage <= 38) {
+  } if (currentPage >= 37 && currentPage <= 38) {
     indexButton16.style.fontWeight = "bold";
     indexButton2.style.fontWeight = "normal";
     indexButton3.style.fontWeight = "normal";
@@ -452,7 +452,7 @@ function colorButton() {
     indexButton12.style.fontWeight = "normal";
     indexButton13.style.fontWeight = "normal";
     indexButton14.style.fontWeight = "normal";
-    indexButton15.style.fontWeight = "normal";
+    indexButton15.style.fontWeight = "bold";
     indexButton1.style.fontWeight = "normal";
     indexButton17.style.fontWeight = "normal";
     indexButton18.style.fontWeight = "normal";
@@ -461,7 +461,7 @@ function colorButton() {
     indexButton21.style.fontWeight = "normal";
     indexButton22.style.fontWeight = "normal";
     // indexButton23.style.fontWeight = "normal";
-  } else if (currentPage === 39) {
+  } if (currentPage === 39) {
     indexButton17.style.fontWeight = "bold";
     indexButton2.style.fontWeight = "normal";
     indexButton3.style.fontWeight = "normal";
@@ -476,7 +476,7 @@ function colorButton() {
     indexButton12.style.fontWeight = "normal";
     indexButton13.style.fontWeight = "normal";
     indexButton14.style.fontWeight = "normal";
-    indexButton15.style.fontWeight = "normal";
+    indexButton15.style.fontWeight = "bold";
     indexButton16.style.fontWeight = "normal";
     indexButton1.style.fontWeight = "normal";
     indexButton18.style.fontWeight = "normal";
@@ -485,7 +485,7 @@ function colorButton() {
     indexButton21.style.fontWeight = "normal";
     indexButton22.style.fontWeight = "normal";
     // indexButton23.style.fontWeight = "normal";
-  } else if (currentPage === 40) {
+  } if (currentPage === 40) {
     indexButton18.style.fontWeight = "bold";
     indexButton2.style.fontWeight = "normal";
     indexButton3.style.fontWeight = "normal";
@@ -500,7 +500,7 @@ function colorButton() {
     indexButton12.style.fontWeight = "normal";
     indexButton13.style.fontWeight = "normal";
     indexButton14.style.fontWeight = "normal";
-    indexButton15.style.fontWeight = "normal";
+    indexButton15.style.fontWeight = "bold";
     indexButton16.style.fontWeight = "normal";
     indexButton17.style.fontWeight = "normal";
     indexButton1.style.fontWeight = "normal";
@@ -509,7 +509,7 @@ function colorButton() {
     indexButton21.style.fontWeight = "normal";
     indexButton22.style.fontWeight = "normal";
     // indexButton23.style.fontWeight = "normal";
-  } else if (currentPage >= 41 && currentPage <= 47) {
+  } if (currentPage >= 41 && currentPage <= 47) {
     indexButton19.style.fontWeight = "bold";
     indexButton2.style.fontWeight = "normal";
     indexButton3.style.fontWeight = "normal";
@@ -524,7 +524,7 @@ function colorButton() {
     indexButton12.style.fontWeight = "normal";
     indexButton13.style.fontWeight = "normal";
     indexButton14.style.fontWeight = "normal";
-    indexButton15.style.fontWeight = "normal";
+    indexButton15.style.fontWeight = "bold";
     indexButton16.style.fontWeight = "normal";
     indexButton17.style.fontWeight = "normal";
     indexButton18.style.fontWeight = "normal";
@@ -533,7 +533,7 @@ function colorButton() {
     indexButton21.style.fontWeight = "normal";
     indexButton22.style.fontWeight = "normal";
     // indexButton23.style.fontWeight = "normal";
-  } else if (currentPage >= 48 && currentPage <= 49) {
+  } if (currentPage >= 48 && currentPage <= 49) {
     indexButton20.style.fontWeight = "bold";
     indexButton2.style.fontWeight = "normal";
     indexButton3.style.fontWeight = "normal";
@@ -548,7 +548,7 @@ function colorButton() {
     indexButton12.style.fontWeight = "normal";
     indexButton13.style.fontWeight = "normal";
     indexButton14.style.fontWeight = "normal";
-    indexButton15.style.fontWeight = "normal";
+    indexButton15.style.fontWeight = "bold";
     indexButton16.style.fontWeight = "normal";
     indexButton17.style.fontWeight = "normal";
     indexButton18.style.fontWeight = "normal";
@@ -557,7 +557,7 @@ function colorButton() {
     indexButton21.style.fontWeight = "normal";
     indexButton22.style.fontWeight = "normal";
     // indexButton23.style.fontWeight = "normal";
-  } else if (currentPage >= 50 && currentPage <= 54) {
+  } if (currentPage >= 50 && currentPage <= 54) {
     indexButton21.style.fontWeight = "bold";
     indexButton2.style.fontWeight = "normal";
     indexButton3.style.fontWeight = "normal";
@@ -581,7 +581,7 @@ function colorButton() {
     indexButton1.style.fontWeight = "normal";
     indexButton22.style.fontWeight = "normal";
     // indexButton23.style.fontWeight = "normal";
-  } else if (currentPage === 55) {
+  } if (currentPage === 55) {
     indexButton22.style.fontWeight = "bold";
     indexButton2.style.fontWeight = "normal";
     indexButton3.style.fontWeight = "normal";
@@ -606,31 +606,6 @@ function colorButton() {
     indexButton1.style.fontWeight = "normal";
     // indexButton23.style.fontWeight = "normal";
   }
-  // } else if (currentPage === 49) {
-  //   indexButton23.style.fontWeight = "bold";
-  //   indexButton2.style.fontWeight = "normal";
-  //   indexButton3.style.fontWeight = "normal";
-  //   indexButton4.style.fontWeight = "normal";
-  //   indexButton5.style.fontWeight = "normal";
-  //   indexButton6.style.fontWeight = "normal";
-  //   indexButton7.style.fontWeight = "normal";
-  //   indexButton8.style.fontWeight = "normal";
-  //   indexButton9.style.fontWeight = "normal";
-  //   indexButton10.style.fontWeight = "normal";
-  //   indexButton11.style.fontWeight = "normal";
-  //   indexButton12.style.fontWeight = "normal";
-  //   indexButton13.style.fontWeight = "normal";
-  //   indexButton14.style.fontWeight = "normal";
-  //   indexButton15.style.fontWeight = "normal";
-  //   indexButton16.style.fontWeight = "normal";
-  //   indexButton17.style.fontWeight = "normal";
-  //   indexButton18.style.fontWeight = "normal";
-  //   indexButton19.style.fontWeight = "normal";
-  //   indexButton20.style.fontWeight = "normal";
-  //   indexButton21.style.fontWeight = "normal";
-  //   indexButton22.style.fontWeight = "normal";
-  //   indexButton1.style.fontWeight = "normal";
-  // }
 }
 //Rastrear el click en en DOM dinamico
 const handleDomCLick = (event) => {
@@ -686,6 +661,33 @@ function setPage(value) {
   cachePage();
   masterRender();
 }
+
+function setVisible(value) {
+  const show1 = document.getElementById("show1");
+  const show2 = document.getElementById("show2");
+  const show3 = document.getElementById("show3");
+
+  if (value === 1) {
+    let alt1 = 0;
+    if (show1.clientHeight === 0) {
+      alt1 = "15em";
+    }
+    show1.style.height = alt1;
+  } else if (value === 2) {
+    let alt2 = 0;
+    if (show2.clientHeight === 0) {
+      alt2 = "15em";
+    }
+    show2.style.height = alt2;
+  } else if (value === 3) {
+    let alt3 = 0;
+    if (show3.clientHeight === 0) {
+      alt3 = "15em";
+    }
+    show3.style.height = alt3;
+  }
+}
+
 //Guardar en la memoria cache
 function cachePage() {
   let currentPageString = String(currentPage);
@@ -904,9 +906,8 @@ function FLayOutGenerator(title, text, images, page, links) {
     </div>
     <div id="Fcolumn2">
       <img id="Flayout-img" src="images/${images[page][1]}">
-      <!--<button class="nav-buttons" id="Fdownload-button"> DESCARGAR</button> -->
       <div id="Flink-container">
-        <a id="Flink" href="${links[page]}">DESCARGAR</a>
+        <a id="Flink" href="${links[page]}" target="_blank">ABRIR EN UNA NUEVA PESTAÑA</a>
       </div>
     </div>
   </div>`;
@@ -973,7 +974,7 @@ function ILayOutGenerator(title, text, images, page, links) {
         <img id ="Iimage-column2" src="images/${images[page][0]}" />
       </div>
       <div id="Ilink-container">
-        <a id="Ilink" href="${links[page]}">DESCARGAR</a>
+        <a id="Ilink" href="${links[page]}" target="_blank">ABRIR EN UNA NUEVA PESTAÑA</a>
       </div>
     </div>
     <div id="Icolumn3">
