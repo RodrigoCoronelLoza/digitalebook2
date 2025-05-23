@@ -670,7 +670,7 @@ function setVisible(value) {
   if (value === 1) {
     let alt1 = 0;
     if (show1.clientHeight === 0) {
-      alt1 = "15em";
+      alt1 = "7.5em";
     }
     show1.style.height = alt1;
     show2.style.height = 0;
@@ -678,7 +678,7 @@ function setVisible(value) {
   } else if (value === 2) {
     let alt2 = 0;
     if (show2.clientHeight === 0) {
-      alt2 = "15em";
+      alt2 = "7.5em";
     }
     show2.style.height = alt2;
     show1.style.height = 0;
@@ -686,7 +686,7 @@ function setVisible(value) {
   } else if (value === 3) {
     let alt3 = 0;
     if (show3.clientHeight === 0) {
-      alt3 = "15em";
+      alt3 = "7.5em";
     }
     show3.style.height = alt3;
     show1.style.height = 0;
