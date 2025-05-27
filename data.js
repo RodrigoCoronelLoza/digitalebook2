@@ -1,5 +1,5 @@
 const textData = {
-  0: "texto a remplazarA",
+  0: "",
   1: "<strong>Fecha de publicación:</strong> Marzo de 2024 </br>  <strong>Lugar:</strong> Estado Plurinacional de Bolivia</br> </br> <b>Institución responsable:</b> </br> Viceministerio de Educación Superior de Formación Profesional</br>Dirección General de Formación de Maestros</br>Unidad Especializada de Formación Continua – UNEFCO</br> </br> <b>Equipo de redacción y dirección:</b> </br>Fundación Ayuda en Acción </br> ProggettoMondo </br> Unidad Especializada de Formación Continua – UNEFCO </br> </br> <b>Créditos de las imágenes y flujogramas:</b> </br>Ilustraciones y dibujos: Fundación Ayuda en Acción; ProgettoMondo </br> Flujogramas: Fundación Ayuda en Acción </br>   </br> <b>Sitios oficiales:</b> </br> www.minedu.gob.bo </br> http://unefco.gob.bo/ </br> Bolivia, marzo, 2024 ",
   2: "texto a remplazarC",
   3: "<br> <br> <br>  El Plan de Formación para Maestras y Maestros es una modalidad de aprendizaje, compuesta por cursos cortos, desarrollada por el Ministerio de Educación a través de la Unidad Especializada de Formación Continua (UNEFCO) para profundizar y fortalecer habilidades y capacidades en la labor educativa, con un enfoque en la mejora de las prácticas y procesos formativos. Su propósito, de acuerdo con la Ley de Educación N° 070 “Avelino Siñani – Elizardo Pérez”, es trabajar por la universalización del Modelo Educativo Sociocomunitario Productivo, en atención a los diferentes niveles y áreas temáticas, con relevancia cultural y lingüística. <br> <br> Las prácticas restaurativas se han venido consolidando como una ciencia social emergente desde aproximadamente el 2013, época en la cual se estudian las acciones individuales y efectivas dirigidas hacia tres objetivos: el fortalecimiento comunitario, la resolución pacífica de conflictos y la  del daño o falta u ofensa cuando se produce. Se definen las mismas como respuestas no punitivas orientadas a la reparación del daño, potenciar las relaciones interpersonales, fortalecer la resolución de los conflictos y desarrollar soluciones que incluyan a todas las personas involucradas en un daño o falta u ofensa; tomando en cuenta que el manejo restaurativo de los afectos en el aula mejora la capacidad para el aprendizaje y la resiliencia. <br> <br> Los cuadernos del ciclo formativo: <b> “PRÁCTICAS RESTAURATIVAS PARA LA RESOLUCIÓN DE CONFLICTOS Y UNA VIDA LIBRE DE VIOLENCIA” </b>, nos invitan a replantearnos la manera en que enfrentamos los conflictos, desafiando los paradigmas arraigados de confrontación y castigo. A medida que nos sumergimos en las profundidades de las prácticas restaurativas, descubrimos su capacidad no solo para restaurar el daño o falta u ofensa causado por los conflictos, sino también para fortalecer nuestros lazos comunitarios y fomentar un clima de confianza y respeto mutuo. Este ciclo cuenta con tres cursos, en el Primer Curso, se aborda la parte normativa, lo que es y no es conflicto para luego introducir al enfoque restaurativo; en el Segundo Curso, se presenta; y en el Tercer Curso presentamos una caja de herramientas práctica para la aplicación en el quehacer educativo. <br> <br><b> COORDINACIÓN GENERAL - UNEFCO",
@@ -13,7 +13,6 @@ const textData = {
   10: "",
   11: "Para profundizar sobre <b>  la Violencia Escolar</b>, avanza con las flechas para revisar más información. ",
   12: "",
-  //12:"La violencia escolar incluye <b>agresiones físicas (golpes, puñetazos, patadas)</b>, <b>agresiones verbales (amenazas, burlas, apodos, rumores, entre otros)</b>, <b>exclusión social</b>, y además pueden presentarse <b>agresiones sexuales (tocamientos no consentidos, abuso sexual -que no se enmarquen en la comisión de un delito-)</b>. </br>  </br> Cuando estas violencias se manifiestan entre pares de manera repetida y contemplan <b>un desequilibrio en el poder entre quien ejerce el maltrato y quien lo recibe, con la intención de lastimar</b>, entonces se trata de maltrato entre pares; es decir, entre iguales, este tipo de violencia puede darse <b>al interior de los grupos que conforman la comunidad educativa (estudiantes, maestros/maestras, personal administrativo)</b></br></br>. También existe el maltrato entre no pares; es decir, en <b>personas de grupos diferentes que son parte de la comunidad educativa (maestra/maestro contra estudiante, estudiante contra maestra/maestro, directivo contra maestra/maestro)</b>.",
   13: "Para profundizar sobre <b> Tipos de violencia escolar </b>, avanza con las flechas para revisar más información. ",
   14: [
     "<br>  <br> El bullying, acoso escolar o maltrato entre pares se presenta <b>tanto en niñas, niños de primaria como en adolescentes y jóvenes, mujeres y hombres</b>. De hecho, suele atribuirse a adolescentes, mujeres u hombres, que manifiestan ciertas características consideradas propias de <b>maltratadores típicos, tales como una tiranía premeditada, continua, malévola y despreciable; graves problemas de conducta desde edades tempranas, agresividad, robo de cosas, mentiras constantes y consumo de sustancias psicoactivas</b>. (Maritza Garcia y Cristian Amaury, 2019)",
@@ -23,14 +22,12 @@ const textData = {
     "<br><br>En la actualidad, el bullying o acoso escolar se relaciona con las nuevas tecnologías que ponen al alcance niveles mayores de daño o falta u ofensa, humillación y anonimato al impedir el contacto de las capas emocionales que inhiben la agresión; esto da lugar a prácticas de maltrato que rebasan las fronteras espaciotemporales.",
     "La violencia entre pares <b>casi siempre tiene lugar lejos de la presencia de personas adultas, maestras/maestros, madre/padre, otros del mundo adulto</b>. Dado que <b>las consecuencias pueden llegar a ser irreversibles para la integridad personal, el equilibrio psicológico y el rendimiento académico de la víctima</b>, es necesaria <b>su identificación oportuna para intervenir lo antes posible con las medidas educativas y de protección previstas para estos casos</b>.",
   ],
-  //16: "Las consecuencias de la violencia son diferentes, según la acción u omisión que se ejerce contra <b>una niña, un niño o adolescente mujer y hombre</b> y depende de <b>diversos factores como: el tipo de conducta, la relación de la agresora o del agresor con la víctima, la frecuencia, la relación del contexto</b>, etc. que suponen <b>efectos inmediatos y, en ocasiones, crónicos si no se interviene de forma temprana y adecuada</b>. </br> </br>  Por lo general, cuando hay consecuencias físicas, éstas son identificables porque <b>dejan huellas en el cuerpo y, la mayoría de las veces, son visibles</b>; sin embargo, este tipo de violencia viene acompañada con <b>una gran carga de violencia psicológica que no siempre es visible y aparentemente no deja marcas</b>, por lo tanto, muchas veces <b>no son atendidas de manera inmediata</b>. </br> </br>  Las niñas, los niños y adolescentes (mujeres u hombres) víctimas de violencia, en el mediano y largo plazo, pueden experimentar <b>consecuencias de carácter físico y/o psicosomático que afectan tanto la esfera afectiva, emocional, conductual y social de las víctimas</b>, desarrollando <b>hábitos disfuncionales y conductas de riesgo</b>, pero sobre todo que <b>influyen en la pérdida de confianza en sí mismos y en los demás</b>, por lo que manifiestan <b>dificultades para la interacción social y las relaciones afectivas</b>.",
   16: " ",
   17: "Para profundizar sobre <b>  las consecuencias emocionales por agresión</b>, avanza con las flechas para revisar más información.  ",
   18: [
     "<br> La <b>Justicia Restaurativa</b> es una filosofía y una propuesta educativa integral que se basa en el <b>respeto mutuo</b> y la <b>resolución pacífica de conflictos</b> en la comunidad educativa. Las <b>prácticas restaurativas</b>, como herramientas sencillas pero efectivas, contribuyen a establecer <b>relaciones sanas, crear <b>espacios de diálogo</b>, fomentar el <b>liderazgo positivo</b> y el <b>empoderamiento</b>, promover <b>comportamientos responsables</b> y reducir los <b>comportamientos violentos</b>, <b>reparar el daño</b> y <b>restaurar las relaciones</b>.<br>  La <b>Justicia Restaurati-va</b> se enfoca en las <b>víctimas</b> y busca <b>reparar el daño</b> cometido a través del conflicto o la comisión de delito, mientras que la <b>práctica restaurativa</b> se puede aplicar de forma <b>proactiva</b>, <b>preventiva</b> y <b>reactiva</b>, y no necesita que exista delito para aplicarse.",
     "Las <b>prácticas restaurativas</b> en el ámbito educativo abor-dan los conflictos desde un enfoque <b>social</b>, <b>afectivo</b>, <b>pedagógico</b> y de <b>derechos</b>, orientado por los principios de <b>protección integral</b> e <b>interés superior</b> de niñas, niños y adolescentes (mujeres y hombres). Diferentes investigaciones prueban que el modelo de <b>gestión de conflictos</b> basado en el enfoque restaurativo <b>frena la reincidencia</b>, facilita la <b>restauración de relaciones</b> entre las perso-nas implicadas, ayuda a instaurar un <b>sentimiento de pertenencia</b> a la comunidad, favorece la <b>reparación de los daños</b> en el grupo de estudiantes víctimas o en el caso que haya sido una víctima de manera individual y aumenta la <b>implicación personal</b> en la resolución del conflicto y la <b>reparación del daño</b>.",
   ],
-  //19: "Tenemos que tener presente que las <b>prácticas restaurativas</b> surgen como una <b>ciencia social</b> que nos permite procesos de <b>restauración</b> y construcción de <b>“comunidad”</b>, entendida ésta como el conjunto de <b>relaciones</b> que entretejen las personas; emerge el <b>sentimiento de pertenecer</b> a un grupo e <b>intereses comunes</b>.  <br> Es una relación construida sobre el <b>afecto</b>, los <b>fines</b> y los <b>valores comunes</b>, así́ como en la <b>lealtad</b> y la <b>reciprocidad</b> entre todos sus integrantes.<br> <br>  Recordamos que es una <b>disciplina</b> que nos permite construir un <b>capital social</b> a través de procesos de <b>aprendizaje</b> y <b>toma de decisiones</b> de manera <b>voluntaria</b> y <b>participativa</b>, generando así estas prácticas restaurativas <b>espacios seguros de diálogo</b>, afrontando situaciones tensas de <b>conflicto</b> desde una <b>perspectiva restaurativa</b>, para <b>reparar las relaciones</b> rotas o afectadas.",
   19: " ",
   20: "Para profundizar sobre <b> Prácticas restaurativas no formales </b>, avanza con las flechas para revisar más información.",
   21: "Esta actividad tiene como objetivo promover una comprensión más profunda sobre los principios, objetivos y beneficios de la <b> justicia restaurativa </b> en el entorno educativo. A través del análisis, el diálogo y la reflexión conjunta, podrás identificar cómo esta perspectiva va más allá de una forma de resolver conflictos, y se convierte en una herramienta para fortalecer los vínculos, construir comunidad y reparar el daño de manera participativa. <br> <br>  <b> La participación activa y el trabajo colaborativo serán clave </b> para nutrir esta experiencia de aprendizaje y avanzar hacia comunidades escolares más justas, empáticas y restaurativas. <br> <br> Recuerda <b> descargar la plantilla </b> Actividad sugerida tema 1 o abrirla en la carpeta de <b> recursos adicionales </b> para llenar tus respuestas.",
@@ -69,7 +66,6 @@ const textData = {
   42: "Para profundizar sobre <b>  planes de convivencia pacífica</b>, avanza con las flechas para revisar más información. ",
   43: "Invitamos a revisar el Ciclo Formativo “Planes de Convivencia Pacífica y Armónica, donde encontrarás mayor detalle de este apartado ",
   44: "Las personas que han ido aplicando las <b>prácticas restaurativas</b> en su ámbito laboral, como <b>personal</b>, son de los que se puede recuperar <b>experiencias</b> y <b>vivencias enriquecedoras</b>, siendo uno de ellos la experiencia de <b>Jena Schmitz</b>, quien refiere lo siguiente: <br>  <br> “Las <b>comunidades educativas</b> con <b>cultura restaurativa</b> han desarrollado <b>relaciones sanas y seguras</b> entre todos sus actores, han promovido <b>comportamientos saludables y responsables</b>, han logrado reducir <b>comportamientos ofensivos y violentos</b>, han prevenido y gestionado <b>tensiones y conflictos</b>, han generado estudiantes <b>empáticos</b>, <b>responsables</b>, <b>empoderados</b> y con <b>liderazgo</b>, y aunque parezca sorprendente, han mejorado también el <b>rendimiento académico</b> del estudiantado.”  <br> <br> “Un <b>centro educativo restaurativo</b> es un espacio que considera las <b>relaciones interpersonales</b> como elementos claves e indispensables para la <b>convivencia sana y pacífica</b>. Por ello, su principal objetivo es crear un <b>sentido de comunidad</b> entre todos sus actores, desarrollando, fortaleciendo y manteniendo <b>relaciones sanas, seguras y fuertes</b>, buscando prevenir <b>situaciones tensas, problemáticas y conflictivas</b>, abordándolas oportunamente cuando ocurran, implicando a todos los involucrados para <b>comprender la situación</b> y encontrar juntos la <b>mejor solución</b> a lo sucedido, <b>reparando los daños</b> o faltas u ofensas causados y evitando que vuelva a suceder en el futuro. Todo <b>conflicto</b> es una profunda fuente de <b>aprendizaje</b>.” (Manuel Ortega, VVOB Ecuador, 2022)",
-  //45: "Las <b>vivencias</b> logradas en <b>prácticas restaurativas</b> en las <b>comunidades educativas</b> son valiosas para mejorar la <b>convivencia</b> y gestionar <b>conflictos</b> de manera efectiva. Algunas de estas experiencias incluyen: <br>  • La importancia del <b>diálogo</b>: El diálogo es fundamental para entender las <b>expectativas</b> de todas las partes involucradas y para encontrar <b>soluciones</b> que sean aceptadas por todos. (www.pazatidea.org, 2022) <br>  • La <b>participación activa</b> de la comunidad: La implicación de <b>estudiantes</b>, <b>maestras y maestros</b>, <b>directoras/es</b>, <b>personal administrativo</b> y <b>madres y padres de familia</b> es crucial para el éxito de las prácticas restaurativas. <br>  • La necesidad de <b>preparación y formación</b>: Para llevar a cabo prácticas restaurativas efectivas, es esencial que los <b>facilitadores</b> estén bien preparados y formados en técnicas de <b>mediación</b> y <b>resolución de conflictos</b>. <br>  • El enfoque en la <b>reparación del daño</b> o falta u ofensa: Más allá del castigo, se busca <b>reparar el daño</b> o falta u ofensa causado y <b>restaurar las relaciones</b> dañadas. <br> • La <b>prevención es clave</b>: Las prácticas restaurativas no solo sirven para resolver conflictos, sino también para <b>prevenirlos</b>, creando un ambiente escolar basado en el <b>respeto mutuo</b> y la <b>comprensión</b>. (www.wp.catedu.es, 2021). <br>  • El <b>fortalecimiento de los vínculos</b>: Estas prácticas ayudan a fortalecer las <b>relaciones</b> dentro de la comunidad educativa, lo que contribuye a lograr un entorno más <b>armónico</b> y <b>colaborativo</b>. (www.pazatidea.org, 2022) <br>",
   45: "",
   46: "Para profundizar sobre <b>  señalética con mensajes restaurativos en la unidad educativa</b>, avanza con las flechas para revisar más información. ",
   47: "Las <b>zonas restaurativas</b> en las comunidades educativas son <b>espacios diseñados</b> para fomentar la <b>convivencia sana y segura</b>, utilizando la <b>filosofía restaurativa</b> como base. Esta se fundamenta en la convicción de que se puede mejorar la <b>convivencia humana</b> cuando las personas se sienten que forman parte de una <b>comunidad</b> y se sienten <b>escuchadas</b> y <b>respetadas</b>.<br> La implementación de <b>zonas restaurativas</b> en las comunidades educativas puede contribuir a la creación de un <b>ambiente escolar positivo</b>, en el que se protegen las <b>relaciones personales sanas</b> y se educa a los estudiantes en valores como el <b>respeto</b>, la <b>tolerancia</b> y el <b>compromiso</b>. Además, las <b>zonas restaurativas</b> pueden ser una <b>herramienta efectiva</b> para la <b>resolución de conflictos</b> y la <b>gestión de las relaciones</b> entre los miembros de la comunidad educativa. (<b>Albertí & Pedrol, 2017</b>)",
@@ -89,16 +85,14 @@ const textData = {
   55: " <b>Estado Plurinacional de Bolivia; Ministerio de Educación. (2018)</b>. Protocolo de Prevención, Actuación y Denuncia en casos de violencia física, psicológica y sexual en Unidades Educativas y centros de Educación Especial. La Paz, Bolivia. <br> <br> <b>Fundacionesplai.org. (2023)</b>. Obtenido de ´https://fundacionesplai.org/blog/justicia-educativa/el-enfoque-de-la-justicia-restaurativa/´ <br> <br>  <b>García Montañez, M. V., & Ascensio Martínez, C. A. (2015)</b>. Bullying y violencia escolar: diferencias, similitudes, actores, consecuencias y origen. Revista Intercontinental de Psicología y Educación, 9-38. <br> <br>  <b>Gonzales, C. I. (2022)</b>. Obtenido de https://uvadoc.uva.es/bitstream/handle/10324/57806/TFG-O-2187.pdf <br> <br>  <b>Hopkins, B. (2020)</b>. Prácticas restaurativas en el aula. Palma, España: GOIB. <br> <br>  <b>Informe de 2013. (2016)</b>. Promover la justicia restaurativa para las niñas, niños y adolescentes. New York, Estados Unidos: Oficina del representante Especial del Secretario General sobre la violencia contra los niños. <br> <br>  <b>López, R. N. (2023)</b>. Fundación Esplai Restaurativa. Obtenido de https://fundacionesplai.org/blog/justicia-educativa/el-enfoque-de-la-justicia-restaurativa/ <br> <br>  <b>Maritza Garcia y Cristian Amaury. (2019)</b>. Universidad Intercontinental. Obtenido de https://www.uic.mx/bullying-violencia-escolar-diferencias-similitudes-actores-consecuencias-origen/ <br> <br>  <b>Matos Gamboa, J. (2012)</b>. Obtenido de www.eumed.net: https://www.eumed.net/rev/17/jmg.hmtl <br> ",
   56: "<b>Paulero, R. (2021)</b>. Conflictos entre docentes y directivos de nivel primario. Representaciones, vivencias, comportamientos y consecuencias en la práctica docente. Revista Latinoamericana de Políticas y Administración de la Educación, 140-152. <br> <br>  <b>Progettomondo.Mlal, EDUCO, FUDEP. (2018)</b>. Prácticas Restaurativas para la prevención y gestión de conflictos en el ámbito educativo. La Paz, Bolivia: Imprenta Cerro Azul S.R.L. <br> <br> <b>Revista Pedagógos. (2013, mayo)</b>. El papel del alumno de ser activo. Obtenido de ´https://revista-pedagogos6.webnode.com.co/paulo-freire/su-pensamiento/´ <br> <br>   <b>Rodríguez, R. (2005)</b>. La acción tutorial para favorecer la convivencia: la disciplina. <br> <br>   <b>San Martín, J. A. (2003)</b>. La mediación escolar. Un camino para la gestión del conflicto escolar. Madrid, España. <br> <br>  <b>Schmitz, J. (2020)</b>. Prácticas restaurativas en el ámbito educativo. Ecuador. <br> <br>  <b>Terres des hommes. (2014)</b>. Auditoría Social de niños, niñas y adolescentes ¿Es tiempo de derechos? Cochabamba, Bolivia: Kipus. <br> <br>  <b>Trusco, D., & Inostroza, P. (2017, marzo)</b>. Las violencias en el espacio escolar. Naciones Unidas. <br> <br>  <b>UNEFCO. (2022)</b>. Ciclo: Promoviendo la convivencia pacífica y armónica en Unidades Educativas. Tarija, Bolivia: UNEFCO. <br> <br>  ",
   57: " <b>UNICEF. Santander, F. (2019)</b>. Estrategia Nacional de Prevención de la Violencia contra Niñas, Niños, Adolescentes y Mujeres. La Paz, Bolivia: Viceministerio de Seguridad Ciudadana. <br> <br> <b>Vargas, G. (2019)</b>. Factores protectores y afrontamiento de riesgos asociados al uso de sustancias psicoactivas en adolescentes y jóvenes. La Paz, Bolivia: WA-GUI. <br> <br>  <b>Zehr, H. (2007, julio)</b>. Obtenido de https://www.icbf.gov.co/sites/default/files/el_pequeno_libro_de_las_justicia_restaurativa.pdf <br> <br>  <b>Zimmermann, A. (2000)</b>. Gestión de cambio organizacional. Caminos y herramientas. Ecuador: Ediciones Abya-Yala. <br> <br>",
-
-  //   14: "13Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna. Sed consequat, leo eget bibendum sodales, augue velit cursus nunc,",
 };
 const titlesData = {
-  0: "texto0",
+  0: "",
   1: "De la justicia restaurativa a las prácticas educativas",
   2: "CONTENIDO",
   3: "Presentación",
   4: "DATOS GENERALES DEL CUADERNO",
-  5: " ",
+  5: "",
   6: "¿Qué entendemos por justicia restaurativa?",
   7: "Justicia restaurativa",
   8: "Aspectos fundamentales de la justicia restaurativa en la unidad educativa",
@@ -124,7 +118,7 @@ const titlesData = {
   19: "Práctica Restaurativa en la Educación",
   20: "Prácticas restaurativas no formales",
   21: "Aplicación de principios del enfoque restaurativo ",
-  22: " ",
+  22: "",
   23: "Comunidad restaurativa",
   24: "Hacia una Comunidad Restaurativa:",
   25: "Las bases de una comunidad educativa restaurativa",
@@ -144,7 +138,7 @@ const titlesData = {
   ],
   34: "Participación restaurativa de madre, padre o tutor de familia",
   35: "Análisis de caso",
-  36: " ",
+  36: "",
   37: "Historia de una situación de conflicto",
   38: [
     "<br>Finalidades en el desarrollo de las prácticas restaurativas",
@@ -169,7 +163,6 @@ const titlesData = {
   55: "Bibliografía",
   56: "Bibliografía",
   57: "Bibliografía",
-  //58: " ",
 };
 
 const layoutData = {
@@ -231,7 +224,6 @@ const layoutData = {
   55: "Blayout",
   56: "Blayout",
   57: "Blayout",
-  //58: "Alayout",
 };
 
 const popUpData = {
@@ -280,13 +272,6 @@ const popUpData = {
       contentModal: "PAG12POP-1.png",
       buttonName: "Abrir",
     },
-    //{
-    //  title: "Titulo del modal1111DDD",
-    //  typeofContent: "text",
-    //   contentModal:
-    //    "tezto a remplazar",
-    //   buttonName: "+",
-    //  },
   ],
   13: "",
   14: [
@@ -323,12 +308,6 @@ const popUpData = {
   24: "",
   25: "",
   26: [
-    //{
-    // title: "Titulo del modal000DDD",
-    //typeofContent: "image",
-    //contentModal: "layOutD.jpg",
-    //buttonName: "+",
-    //},
     {
       title: " ",
       typeofContent: "text",
@@ -345,13 +324,6 @@ const popUpData = {
       contentModal: "PAG28POP-1.png",
       buttonName: "Abrir",
     },
-    //{
-    //  title: "Titulo del modal1111DDD",
-    //  typeofContent: "text",
-    //   contentModal:
-    //    "tezto a remplazar",
-    //   buttonName: "+",
-    //  },
   ],
   29: "",
   30: [
@@ -361,13 +333,6 @@ const popUpData = {
       contentModal: "PAG30POP-1.png",
       buttonName: "Abrir",
     },
-    //{
-    //  title: "Titulo del modal1111DDD",
-    //  typeofContent: "text",
-    //   contentModal:
-    //    "tezto a remplazar",
-    //   buttonName: "+",
-    //  },
   ],
   31: "",
   32: [
@@ -493,7 +458,7 @@ const popUpData = {
   58: "",
 };
 const imagesData = {
-  0: " ",
+  0: "",
   1: "",
   2: "",
   3: "",
@@ -649,7 +614,6 @@ const buttonsNameData = {
   24: "",
   25: "",
   26: "",
-  // 27: "",
   27: "",
   28: "",
   29: "",
@@ -812,5 +776,4 @@ const linksData = {
   55: "",
   56: "",
   57: "",
-  // 58: "",
 };
